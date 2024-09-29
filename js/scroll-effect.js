@@ -1,12 +1,24 @@
 document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-      var header = document.querySelector('header');
-      var scrollPosition = window.scrollY;
-  
-      if (scrollPosition > 100) { // Adjust this value as needed
-        header.classList.add('scrolled');
+  const header = document.querySelector('header');
+  const headerHeight = header.offsetHeight;
+  const scrollThreshold = headerHeight / 2; // Start transition halfway through the header
+
+  window.addEventListener('scroll', function() {
+      const scrollPosition = window.scrollY;
+      const scrollPercentage = Math.min(1, Math.max(0, (scrollPosition - scrollThreshold) / headerHeight));
+      
+      header.style.setProperty('--scroll-percentage', scrollPercentage);
+      
+      if (scrollPosition > 0) {
+          header.classList.add('scrolling');
       } else {
-        header.classList.remove('scrolled');
+          header.classList.remove('scrolling');
       }
-    });
+      
+      if (scrollPercentage >= 1) {
+          header.classList.add('scrolled');
+      } else {
+          header.classList.remove('scrolled');
+      }
   });
+});
