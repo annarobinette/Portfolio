@@ -43,7 +43,9 @@ body.high-contrast {
 /* Header styles */
 header {
     background-color: var(--background-color);
+    display: flex;
     padding: 2rem;
+    justify-content: center;
     text-align: center;
     position: fixed;
     top: 0;
@@ -53,8 +55,9 @@ header {
     width: 100%;
     border-bottom: 5px solid var(--neutral-light);
     align-items: center;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
     margin-bottom: 0.3rem;
+      
 }
 
 h1{
@@ -83,13 +86,6 @@ hlinks {
     padding-bottom: 0.4rem;
 }
 
-.hskills {
-    background-color: #ffffff;
-    margin: 1rem;
-    transition: all 0.3s ease;
-    width: 40rem;
-    
-}
 
 hspot {
     font-style: italic;
@@ -102,27 +98,37 @@ hspot {
 }
 
 header.scrolled {
-    padding: 1rem, 0rem, 2rem;
-}
+    height: 60px; 
+  }
 
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    
-}
-
-.scrollsection{
-
-}
-
-header.scrolled .scrollsection {
-    width: 0;
-    height: 0;
+.scrollsection {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    transition: all 1s ease;
+  }
+  
+  .hskills {
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  header.scrolled .scrollsection {
+    max-width: 0;
+    opacity: 0;
     margin: 0;
-}
+    padding: 0;
+  }
+  
+  header.scrolled .hskills {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+  }
 
 /* Main content container */
 main {
@@ -173,8 +179,46 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
-    color: var(--accent-color);
+    color: var(--dark-accent-color);
 }
+
+/*Button Styles */
+a.button {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.2rem 0.6rem 0.4rem;
+    outline: 0;
+    border: 2px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0.2rem 0.4rem 0.2rem;
+    text-decoration: none;
+  }
+
+a.button:after {
+    content: "";
+    background-color: var(--accent-color);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 0.4rem;
+    left: 0.4rem;
+    transition: 0.2s;
+    text-decoration: none;
+  }
+
+a.button:hover:after {
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+  }
+
+  
 
 /* Projects section */
 .projects {
