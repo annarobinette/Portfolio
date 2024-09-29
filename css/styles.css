@@ -24,7 +24,7 @@
 /* Global styles */
 body {
     font-family: 'Kanit', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.4;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -49,9 +49,10 @@ header {
     right: 0;
     z-index: 1000;
     width: 100%;
-    border-bottom: 1px solid var(--background-color);
+    border-bottom: 3px solid var(--background-color);
+    border-width: 60%;
     transition: all 0.3s ease;
-    box-shadow: 0px 30px 30px var(--background-color);
+    box-shadow: 0px 40px 40px var(--background-color);
     /* --scroll-percentage: 0;
     border-bottom-width: calc(5px * (1 - var(--scroll-percentage))); */
 }
@@ -70,7 +71,7 @@ header {
 h1 {
     color: #fff;
     font-size: 3.5em;
-    text-shadow: 0.15rem 0.15rem var(--accent-color), 0.3rem 0.3rem 0.2rem var(--dark-accent-color);
+    text-shadow: 0.15rem 0.15rem var(--accent-color), 0.3rem 0.3rem 0.1rem var(--dark-accent-color);
     font-weight: 900;
     -webkit-text-stroke: 0.025rem;
     -webkit-text-stroke-color: var(--accent-color);
@@ -101,7 +102,7 @@ hlinks {
 }
 
 .hskills {
-     background-color: #ffffff; 
+     /*background-color: #ffffff; */
      margin: 1rem 1rem 1rem;
      padding: 0em 0.5em 0.1em;
     text-align: center;
@@ -111,10 +112,11 @@ hlinks {
 
 hspot {
     font-style: italic;
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 1.6rem;
-    color: black;
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    letter-spacing: 105%;
+    color: var(--primary-color);
 }
 
 
@@ -143,11 +145,11 @@ section {
 
 section h2 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
     color: var(--primary-color);
     background-color: #ffffff;
-    padding: 0.1em 0.2em 0.2em;
+    padding: 0.1em 0.2em 0.25em;
     width: fit-content;
 }
 
