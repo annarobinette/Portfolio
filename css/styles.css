@@ -71,7 +71,7 @@ header {
 h1 {
     color: #fff;
     font-size: 3.5em;
-    text-shadow: 0.15rem 0.15rem var(--accent-color), 0.3rem 0.3rem 0.1rem var(--dark-accent-color);
+    text-shadow: 0.15rem 0.15rem var(--accent-color), 0.25rem 0.25rem 0.3rem var(--dark-accent-color);
     font-weight: 900;
     -webkit-text-stroke: 0.025rem;
     -webkit-text-stroke-color: var(--accent-color);
