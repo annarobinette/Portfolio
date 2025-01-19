@@ -1,0 +1,5 @@
+year,month,month_name,format_grouped,isbn13_count,price_mean,price_median,rating_mean,review_count_sum
+2025,1,January,Board books,30,5.38,5.51,4.77,395700
+2025,1,January,Hardback,44,7.61,7.38,4.76,58493
+2025,1,January,Other,44,11.91,11.37,4.54,1523577
+2025,1,January,Paperback,121,6.02,5.0,4.69,1120608

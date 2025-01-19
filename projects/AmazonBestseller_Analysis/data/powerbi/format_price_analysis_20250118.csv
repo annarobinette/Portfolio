@@ -1,0 +1,5 @@
+processing_date,format_grouped,price_count,price_mean,price_median,price_min,price_max,main_category_rank,review_count
+20250118,Board books,30,5.38,5.51,3.75,7.99,1,395700
+20250118,Hardback,44,7.61,7.38,1.72,20.14,1,58493
+20250118,Other,43,11.91,11.37,0.99,32.99,1,1523577
+20250118,Paperback,121,6.02,5.0,1.0,39.99,1,1120608

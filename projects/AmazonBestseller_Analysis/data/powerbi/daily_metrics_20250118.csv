@@ -1,0 +1,2 @@
+processing_date,isbn13_count,price_mean,price_median,price_std,rating_mean,rating_median,review_count_sum,main_category_nunique,standardized_format_nunique
+20250118,239,7.3,6.0,5.54,4.68,4.7,3098378,8,3

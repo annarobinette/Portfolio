@@ -1,0 +1,2 @@
+year,week,day_of_week,day_name,isbn13_count,price_mean,price_median,rating_mean,review_count_sum,main_category_nunique,standardized_format_nunique
+2025,3,5,Saturday,239,7.3,6.0,4.68,3098378,8,3

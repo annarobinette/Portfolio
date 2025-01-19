@@ -1,0 +1,20 @@
+{
+    "total_records": 210,
+    "unique_books": 167,
+    "unique_authors": 104,
+    "series_books": 0,
+    "format_distribution": {
+        "Paperback": 72,
+        "Board Book": 42,
+        "Digital": 41,
+        "Hardcover": 38,
+        "Audio": 17
+    },
+    "age_group_distribution": {
+        "Early Reader": 30,
+        "Middle Grade": 30,
+        "Young Teen": 30,
+        "Young Adult": 30
+    },
+    "cleaning_date": "2025-01-17 16:11:19"
+}

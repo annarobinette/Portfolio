@@ -1,0 +1,59 @@
+# Amazon Bestseller Analysis Configuration
+
+# Scraping settings
+scraping:
+  delay: 3  # Seconds between requests
+  headers:
+    User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+    Accept-Language: "en-GB,en;q=0.9"
+  max_retries: 3
+  backoff_factor: 2
+
+categories:
+  - name: "Classic Books"
+    url: "https://www.amazon.co.uk/gp/bestsellers/books/291745/ref=pd_zg_hrsr_books"
+    type: "fiction"
+    subtype: "classics"
+    
+  - name: "Sport and Outdoors"
+    url: "https://www.amazon.co.uk/Best-Sellers-Books-Childrens-Books-on-Sports-the-Outdoors/zgbs/books/291772/ref=zg_bs_nav_books_2_69"
+    type: "non_fiction"
+    subtype: "sports"
+    
+  - name: "Teen and Young Adult"
+    url: "https://www.amazon.co.uk/Best-Sellers-Teen-Young-Adult/zgbs/books/52"
+    type: "fiction"
+    subtype: "young_adult"
+    default_age_range: "14-18"
+    
+  - name: "Comics and Graphic Novels"
+    url: "https://www.amazon.co.uk/Best-Sellers-Books-Comics-Graphic-Novels-for-Children/zgbs/books/291767/ref=zg_bs_nav_books_2_69"
+    type: "fiction"
+    subtype: "graphic_novels"
+    
+  - name: "Science, Nature & How It Works"
+    url: "https://www.amazon.co.uk/Best-Sellers-Books-Childrens-Books-on-Science-Nature-How-It-Works/zgbs/books/492622/ref=zg_bs_nav_books_2_69"
+    type: "non_fiction"
+    subtype: "science"
+    
+  - name: "TV, Movie & Video Game Adaptations"
+    url: "https://www.amazon.co.uk/Best-Sellers-Books-TV-Movie-Video-Game-Adaptations-for-Children/zgbs/books/15512249031/ref=zg_bs_nav_books_3_15512039031"
+    type: "fiction"
+    subtype: "adaptations"
+    
+  - name: "Educational Books"
+    url: "https://www.amazon.co.uk/Best-Sellers-Books-Education-Reference-for-Children/zgbs/books/291673/ref=zg_bs_nav_books_2_69"
+    type: "education"
+    subtype: "general"
+    
+  - name: "Reference Books"
+    url: "https://www.amazon.co.uk/Best-Sellers-Books-Childrens-Reference-Books/zgbs/books/291707/ref=zg_bs_nav_books_3_291673"
+    type: "education"
+    subtype: "reference"
+
+output:
+  base_path: "../data"
+  raw_data: "raw/daily_bestsellers"
+  processed_data: "processed"
+  file_prefix: "bestsellers"

@@ -1,0 +1,43 @@
+2025-01-18 21:36:45,322 - INFO - Found 17 files to process
+2025-01-18 21:36:45,325 - INFO - Creating dataset: seasonal_export_summary
+2025-01-18 21:36:45,570 - ERROR - Error processing ../data/powerbi/seasonal_export_summary_20250118.csv: 'message'
+2025-01-18 21:36:45,574 - INFO - Creating dataset: format_price_analysis
+2025-01-18 21:36:45,786 - ERROR - Error processing ../data/powerbi/format_price_analysis_20250118.csv: 'message'
+2025-01-18 21:36:45,790 - INFO - Creating dataset: daily_metrics
+2025-01-18 21:36:46,080 - ERROR - Error processing ../data/powerbi/daily_metrics_20250118.csv: 'message'
+2025-01-18 21:36:46,085 - INFO - Creating dataset: bestseller_tracking
+2025-01-18 21:36:46,316 - ERROR - Error processing ../data/powerbi/bestseller_tracking_20250118.csv: 'message'
+2025-01-18 21:36:46,321 - INFO - Creating dataset: subcategory_analysis
+2025-01-18 21:36:46,571 - ERROR - Error processing ../data/powerbi/subcategory_analysis_20250118.csv: 'message'
+2025-01-18 21:36:46,575 - INFO - Creating dataset: category_price_analysis
+2025-01-18 21:36:46,841 - ERROR - Error processing ../data/powerbi/category_price_analysis_20250118.csv: 'message'
+2025-01-18 21:36:46,845 - INFO - Creating dataset: main_category_analysis
+2025-01-18 21:36:47,086 - ERROR - Error processing ../data/powerbi/main_category_analysis_20250118.csv: 'message'
+2025-01-18 21:36:47,104 - INFO - Creating dataset: monthly_trends
+2025-01-18 21:36:47,392 - ERROR - Error processing ../data/powerbi/monthly_trends_20250118.csv: 'message'
+2025-01-18 21:36:47,395 - INFO - Creating dataset: weekly_trends
+2025-01-18 21:36:47,637 - ERROR - Error processing ../data/powerbi/weekly_trends_20250118.csv: 'message'
+2025-01-18 21:36:47,643 - INFO - Creating dataset: bestseller_persistence
+2025-01-18 21:36:47,851 - ERROR - Error processing ../data/powerbi/bestseller_persistence_20250118.csv: 'message'
+2025-01-18 21:36:47,856 - INFO - Creating dataset: category_crossover
+2025-01-18 21:36:48,061 - ERROR - Error processing ../data/powerbi/category_crossover_20250118.csv: 'message'
+2025-01-18 21:36:48,065 - INFO - Creating dataset: category_seasonal
+2025-01-18 21:36:48,307 - ERROR - Error processing ../data/powerbi/category_seasonal_20250118.csv: 'message'
+2025-01-18 21:36:48,310 - INFO - Creating dataset: category_export_summary
+2025-01-18 21:36:48,557 - ERROR - Error processing ../data/powerbi/category_export_summary_20250118.csv: 'message'
+2025-01-18 21:36:48,560 - INFO - Creating dataset: export_summary
+2025-01-18 21:36:48,794 - ERROR - Error processing ../data/powerbi/export_summary_20250118.csv: 'message'
+2025-01-18 21:36:48,796 - INFO - Creating dataset: category_format_analysis
+2025-01-18 21:36:49,006 - ERROR - Error processing ../data/powerbi/category_format_analysis_20250118.csv: 'message'
+2025-01-18 21:36:49,010 - INFO - Creating dataset: price_changes
+2025-01-18 21:36:49,216 - ERROR - Error processing ../data/powerbi/price_changes_20250118.csv: 'message'
+2025-01-18 21:36:49,220 - INFO - Creating dataset: format_seasonal
+2025-01-18 21:36:49,455 - ERROR - Error processing ../data/powerbi/format_seasonal_20250118.csv: 'message'
+2025-01-18 21:36:49,456 - INFO - Upload process completed successfully
+2025-01-18 21:38:54,063 - INFO - Found 17 files to process
+2025-01-18 21:38:54,063 - INFO - Starting authentication process...
+2025-01-18 21:38:54,293 - ERROR - Upload process failed: 'message'
+2025-01-18 21:40:40,573 - INFO - Found 17 files to process
+2025-01-18 21:40:40,573 - INFO - Starting authentication process...
+2025-01-18 21:40:40,782 - INFO - Starting interactive login...
+2025-01-18 21:40:40,784 - INFO - Open a browser on this device to visit: https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?client_id=51bb465f-8900-4d5f-8bf6-297d42f81179&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A61581&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default+offline_access+openid+profile&state=CLQdxewtmYSrJXhM&code_challenge=nWjXjZWgQAPXCP4kt-ZpwYqVu6PiKSqRDImroLn0fQ8&code_challenge_method=S256&nonce=5e2db4c73bd30d33295ea7db7e56776c844f09b5e8c46765b4bfd86e97f69fe6&client_info=1&prompt=select_account

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gutenberg Dashboard</title>
+    
+    <!-- React -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .card {
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tab-active {
+            border-bottom: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        function ChartComponent({ type, data, options }) {
+            const chartRef = React.useRef(null);
+            const [chart, setChart] = React.useState(null);
+
+            React.useEffect(() => {
+                // Cleanup previous chart
+                if (chart) {
+                    chart.destroy();
+                }
+
+                // Create new chart
+                if (chartRef.current) {
+                    const newChart = new Chart(chartRef.current, {
+                        type: type,
+                        data: data,
+                        options: options
+                    });
+                    setChart(newChart);
+                }
+
+                // Cleanup on unmount
+                return () => {
+                    if (chart) {
+                        chart.destroy();
+                    }
+                };
+            }, [data]);
+
+            return <canvas ref={chartRef}></canvas>;
+        }
+
+        function Dashboard() {
+            const [activeTab, setActiveTab] = React.useState('overview');
+
+            const stats = [
+                { label: "Total Titles", value: "74,896", icon: "📚" },
+                { label: "Languages", value: "70", icon: "🌍" },
+                { label: "Total Downloads", value: "13.5M", icon: "⬇️" }
+            ];
+
+            const performanceData = [
+                { language: 'Russian', avgDownloads: 1431 },
+                { language: 'Arabic', avgDownloads: 1129 },
+                { language: 'Chinese', avgDownloads: 938 },
+                { language: 'Korean', avgDownloads: 894 },
+                { language: 'Romanian', avgDownloads: 648 }
+            ];
+
+            const pieChartData = {
+                labels: ['English', 'French', 'Finnish', 'German', 'Other'],
+                datasets: [{
+                    data: [80.1, 5.2, 4.2, 3.0, 7.5],
+                    backgroundColor: [
+                        '#0088FE',
+                        '#00C49F',
+                        '#FFBB28',
+                        '#FF8042',
+                        '#8884d8'
+                    ]
+                }]
+            };
+
+            const barChartData = {
+                labels: performanceData.map(item => item.language),
+                datasets: [{
+                    label: 'Average Downloads',
+                    data: performanceData.map(item => item.avgDownloads),
+                    backgroundColor: '#8884d8'
+                }]
+            };
+
+            const chartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            };
+
+            return (
+                <div className="p-8 max-w-7xl mx-auto bg-gray-50">
+                    <h1 className="text-3xl font-bold mb-2">Project Gutenberg Analytics</h1>
+                    <p className="text-gray-600 mb-8">Analysis of out-of-copyright works in digital format</p>
+
+                    {/* Stats Grid */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                        {stats.map((stat, i) => (
+                            <div key={i} className="card">
+                                <div className="flex justify-between items-center">
+                                    <div>
+                                        <p className="text-sm text-gray-500">{stat.label}</p>
+                                        <p className="text-2xl font-bold">{stat.value}</p>
+                                    </div>
+                                    <span className="text-2xl">{stat.icon}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
+                    {/* Tabs */}
+                    <div className="mb-4 border-b">
+                        <button 
+                            className={`px-4 py-2 ${activeTab === 'overview' ? 'tab-active' : ''}`}
+                            onClick={() => setActiveTab('overview')}
+                        >
+                            Overview
+                        </button>
+                        <button 
+                            className={`px-4 py-2 ${activeTab === 'performance' ? 'tab-active' : ''}`}
+                            onClick={() => setActiveTab('performance')}
+                        >
+                            Performance
+                        </button>
+                    </div>
+
+                    {/* Tab Content */}
+                    {activeTab === 'overview' && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className="card">
+                                <h3 className="text-lg font-semibold mb-4">Language Distribution</h3>
+                                <div className="chart-container">
+                                    <ChartComponent 
+                                        type="pie"
+                                        data={pieChartData}
+                                        options={chartOptions}
+                                    />
+                                </div>
+                            </div>
+                            <div className="card">
+                                <h3 className="text-lg font-semibold mb-4">Average Downloads by Language</h3>
+                                <div className="chart-container">
+                                    <ChartComponent 
+                                        type="bar"
+                                        data={barChartData}
+                                        options={chartOptions}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {activeTab === 'performance' && (
+                        <div className="card">
+                            <h3 className="text-lg font-semibold mb-4">Performance Analysis</h3>
+                            <div className="overflow-x-auto">
+                                <table className="w-full text-sm">
+                                    <thead>
+                                        <tr className="border-b">
+                                            <th className="text-left p-2">Language</th>
+                                            <th className="text-right p-2">Avg Downloads</th>
+                                            <th className="text-right p-2">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {performanceData.map((item, index) => (
+                                            <tr key={index} className="border-b">
+                                                <td className="p-2">{item.language}</td>
+                                                <td className="text-right p-2">{item.avgDownloads.toLocaleString()}</td>
+                                                <td className="text-right p-2">
+                                                    <span className={`px-2 py-1 rounded-full text-xs ${
+                                                        item.avgDownloads > 1000 ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
+                                                    }`}>
+                                                        {item.avgDownloads > 1000 ? 'High' : 'Medium'}
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<Dashboard />);
+    </script>
+</body>
+</html>

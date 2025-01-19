@@ -1,0 +1,12 @@
+2025-01-18 22:13:47,488 - INFO - Checked/created directory: ../data/raw/daily_bestsellers
+2025-01-18 22:13:47,489 - INFO - Checked/created directory: ../data/processed
+2025-01-18 22:13:47,489 - INFO - Checked/created directory: ../data/powerbi
+2025-01-18 22:13:47,489 - INFO - Checked/created directory: ../logs
+2025-01-18 22:13:47,489 - INFO - Starting daily analysis run at 2025-01-18 22:13:47.489803
+2025-01-18 22:13:47,490 - INFO - Starting 01_collect_bestsellers.py
+2025-01-19 09:33:03,196 - INFO - Checked/created directory: ../data/raw/daily_bestsellers
+2025-01-19 09:33:03,197 - INFO - Checked/created directory: ../data/processed
+2025-01-19 09:33:03,197 - INFO - Checked/created directory: ../data/powerbi
+2025-01-19 09:33:03,197 - INFO - Checked/created directory: ../logs
+2025-01-19 09:33:03,197 - INFO - Starting daily analysis run at 2025-01-19 09:33:03.197506
+2025-01-19 09:33:03,197 - INFO - Starting 01_collect_bestsellers.py

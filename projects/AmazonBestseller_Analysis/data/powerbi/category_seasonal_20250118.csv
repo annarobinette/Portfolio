@@ -1,0 +1,9 @@
+year,month,month_name,main_category,isbn13_count,price_mean,price_median,main_category_rank_min,main_category_rank_max,main_category_rank_mean,rating_mean,review_count_sum
+2025,1,January,Classic Books,30,6.79,5.0,1,30,15.5,4.77,483536
+2025,1,January,Comics and Graphic Novels,30,6.62,5.0,1,30,15.5,4.74,448761
+2025,1,January,Educational Books,30,5.33,4.99,1,30,15.5,4.7,176913
+2025,1,January,Reference Books,30,8.53,7.22,1,30,15.5,4.67,61236
+2025,1,January,"Science, Nature & How It Works",30,6.32,5.0,1,30,15.5,4.73,101930
+2025,1,January,Sport and Outdoors,30,6.46,6.99,1,30,15.5,4.67,31823
+2025,1,January,"TV, Movie & Video Game Adaptations",29,5.13,4.99,1,30,15.14,4.67,39988
+2025,1,January,Teen and Young Adult,30,13.06,11.37,1,30,15.5,4.53,1754191

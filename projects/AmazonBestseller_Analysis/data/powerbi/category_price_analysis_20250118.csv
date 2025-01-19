@@ -1,0 +1,9 @@
+processing_date,main_category,price_count,price_mean,price_median,price_min,price_max,main_category_rank,review_count
+20250118,Classic Books,30,6.79,5.0,2.99,39.99,1,483536
+20250118,Comics and Graphic Novels,30,6.62,5.0,2.99,34.0,1,448761
+20250118,Educational Books,30,5.33,4.99,1.0,12.99,1,176913
+20250118,Reference Books,30,8.53,7.22,2.82,21.35,1,61236
+20250118,"Science, Nature & How It Works",30,6.32,5.0,1.0,17.99,1,101930
+20250118,Sport and Outdoors,30,6.46,6.99,0.99,12.15,1,31823
+20250118,"TV, Movie & Video Game Adaptations",28,5.13,4.99,1.0,10.0,1,39988
+20250118,Teen and Young Adult,30,13.06,11.37,0.99,32.99,1,1754191

@@ -1,0 +1,218 @@
+processing_date,category_name,isbn13_count,category_1_rank_min,category_1_rank_max,category_1_rank_mean,price_mean,price_median,rating_mean,review_count_sum,category_level,category_2_rank_min,category_2_rank_max,category_2_rank_mean,category_3_rank_min,category_3_rank_max,category_3_rank_mean
+20250118,Animal Sciences References,1,6.0,6.0,6.0,2.99,2.99,4.8,100,1,,,,,,
+20250118,Biographies of Social Activists for Children,1,1.0,1.0,1.0,7.5,7.5,4.9,219,1,,,,,,
+20250118,Birdwatching (Books),1,1.0,1.0,1.0,4.0,4.0,4.7,425,1,,,,,,
+20250118,Books on Football for Young Adults,1,2.0,2.0,2.0,7.99,7.99,4.7,69,1,,,,,,
+20250118,Celtic Glasgow,1,1.0,1.0,1.0,6.99,6.99,4.7,128,1,,,,,,
+20250118,Chapter Books for Children,3,2.0,6.0,3.67,16.0,4.0,4.83,218230,1,,,,,,
+20250118,Children's Action & Adventure Comics & Graphic Novels,1,4.0,4.0,4.0,5.0,5.0,4.8,574,1,,,,,,
+20250118,Children's Animal Comics & Graphic Novels,2,2.0,2.0,2.0,4.99,4.99,4.8,902,1,,,,,,
+20250118,Children's Books on Bears,2,1.0,5.0,3.0,7.0,7.0,4.8,6317,1,,,,,,
+20250118,"Children's Books on Cars, Trains & Things That Go",1,1.0,1.0,1.0,12.99,12.99,4.5,22593,1,,,,,,
+20250118,Children's Books on Christmas,1,8.0,8.0,8.0,7.35,7.35,4.8,1172,1,,,,,,
+20250118,Children's Books on Computer Programming,1,1.0,1.0,1.0,2.99,2.99,4.7,119,1,,,,,,
+20250118,Children's Books on Country & Farm Life,1,1.0,1.0,1.0,4.0,4.0,4.8,2619,1,,,,,,
+20250118,Children's Books on Easter,1,2.0,2.0,2.0,4.0,4.0,4.8,6596,1,,,,,,
+20250118,Children's Books on Emotions & Feelings,1,12.0,12.0,12.0,4.99,4.99,4.8,4924,1,,,,,,
+20250118,Children's Books on Fashion Crafts,1,1.0,1.0,1.0,4.0,4.0,4.8,6888,1,,,,,,
+20250118,Children's Books on Football,1,6.0,6.0,6.0,4.0,4.0,4.7,1318,1,,,,,,
+20250118,Children's Books on Gymnastics,1,1.0,1.0,1.0,7.28,7.28,4.7,86,1,,,,,,
+20250118,Children's Books on Horses,1,2.0,2.0,2.0,4.5,4.5,4.7,1633,1,,,,,,
+20250118,Children's Books on Pets,1,1.0,1.0,1.0,8.26,8.26,4.8,24758,1,,,,,,
+20250118,Children's Books on Rabbits,3,1.0,2.0,1.67,7.49,7.99,4.8,4998,1,,,,,,
+20250118,Children's Books on Reptiles & Amphibians,1,1.0,1.0,1.0,4.0,4.0,4.8,222,1,,,,,,
+20250118,Children's Books on Royalty,1,1.0,1.0,1.0,4.0,4.0,4.9,11087,1,,,,,,
+20250118,Children's Books on School,4,6.0,12.0,9.5,4.38,4.25,4.72,66750,1,,,,,,
+20250118,Children's Books on Sports & the Outdoors,4,2.0,15.0,8.0,5.57,4.44,4.68,8451,1,,,,,,
+20250118,Children's Books on Travel,1,2.0,2.0,2.0,6.57,6.57,4.7,4097,1,,,,,,
+20250118,Children's Books on the Olympics,1,1.0,1.0,1.0,2.99,2.99,4.7,56,1,,,,,,
+20250118,Children's Comics & Graphic Novels on Social & Philosophical Topics,3,5.0,7.0,6.0,8.51,8.27,4.77,57049,1,,,,,,
+20250118,Children's Early Learning Books on Sense & Sensation,1,1.0,1.0,1.0,4.0,4.0,4.9,9364,1,,,,,,
+20250118,Children's Early Learning Books on Sounds,1,3.0,3.0,3.0,6.99,6.99,4.8,52117,1,,,,,,
+20250118,Children's Early Learning Books on Words,2,2.0,4.0,3.0,5.68,5.68,4.8,9360,1,,,,,,
+20250118,Children's Fantasy & Supernatural Mystery eBooks,1,1.0,1.0,1.0,0.99,0.99,4.7,1633,1,,,,,,
+20250118,Children's Fantasy Comics & Graphic Novels,1,1.0,1.0,1.0,34.0,34.0,4.9,103,1,,,,,,
+20250118,Children's Fiction on Sexuality,1,1.0,1.0,1.0,7.09,7.09,4.8,282,1,,,,,,
+20250118,Children's Historical Fiction on Military & Wars,1,1.0,1.0,1.0,6.99,6.99,4.7,7734,1,,,,,,
+20250118,Children's Humorous Comics & Graphic Novels,2,12.0,15.0,13.5,4.0,4.0,4.75,76960,1,,,,,,
+20250118,Children's Imagination & Play Literature,1,1.0,1.0,1.0,3.69,3.69,4.8,15641,1,,,,,,
+20250118,Children's Mystery & Detective Comics & Graphic Novels,5,1.0,11.0,4.2,6.96,7.0,4.78,107875,1,,,,,,
+20250118,Children's School Life Comics & Graphic Novels,2,1.0,2.0,1.5,5.74,5.74,4.7,12471,1,,,,,,
+20250118,Children's Science & Nature Comics & Graphic Novels,1,1.0,1.0,1.0,4.0,4.0,4.8,92672,1,,,,,,
+20250118,Children's eBooks on Siblings,1,1.0,1.0,1.0,2.99,2.99,4.5,10233,1,,,,,,
+20250118,Children’s Daily Activity Fiction Books,1,2.0,2.0,2.0,4.0,4.0,4.8,15641,1,,,,,,
+20250118,Classics for Children,2,2.0,7.0,4.5,4.5,4.5,4.8,64740,1,,,,,,
+20250118,Comics & Graphic Novels for Children,1,24.0,24.0,24.0,6.0,6.0,4.8,1090,1,,,,,,
+20250118,Comics with Media Tie-Ins for Children,2,1.0,2.0,1.5,4.99,4.99,4.8,480,1,,,,,,
+20250118,Dystopian,1,1.0,1.0,1.0,0.99,0.99,4.5,65628,1,,,,,,
+20250118,"Early Reader's Rhymes, Verse & Wordplay for Children",1,1.0,1.0,1.0,6.49,6.49,4.8,301,1,,,,,,
+20250118,Exploring Polar Regions for Children,1,1.0,1.0,1.0,4.5,4.5,4.7,2603,1,,,,,,
+20250118,FC Liverpool,1,1.0,1.0,1.0,6.99,6.99,4.7,90,1,,,,,,
+20250118,FIFA,1,4.0,4.0,4.0,7.35,7.35,4.6,299,1,,,,,,
+20250118,"Fairy Tales, Folk Tales & Myths for Children (Books)",1,1.0,1.0,1.0,4.0,4.0,4.7,2103,1,,,,,,
+20250118,Fantasy Adventure for Children,2,2.0,9.0,5.5,4.5,4.5,4.75,18996,1,,,,,,
+20250118,Fiction About Emotions & Feelings for Children,1,1.0,1.0,1.0,4.0,4.0,4.8,8752,1,,,,,,
+20250118,Fiction About Parents for Young Adults,1,3.0,3.0,3.0,7.0,7.0,4.7,932,1,,,,,,
+20250118,Football Fans,2,1.0,2.0,1.5,4.49,4.49,4.55,522,1,,,,,,
+20250118,Hidden Picture Books for Children,1,6.0,6.0,6.0,1.0,1.0,,0,1,,,,,,
+20250118,Horror & Ghost Stories for Children,2,2.0,2.0,2.0,6.49,6.49,4.9,33890,1,,,,,,
+20250118,Intermediate & Advanced Readers for Children,1,1.0,1.0,1.0,4.35,4.35,4.3,67,1,,,,,,
+20250118,Managers' Guides to Computing,1,1.0,1.0,1.0,8.0,8.0,4.8,882,1,,,,,,
+20250118,Medical Romance,1,2.0,2.0,2.0,5.0,5.0,4.5,173598,1,,,,,,
+20250118,Multicultural Stories for Children (Books),1,1.0,1.0,1.0,7.35,7.35,4.8,2875,1,,,,,,
+20250118,Nonfiction Comic Books for Children,1,1.0,1.0,1.0,4.99,4.99,4.4,54,1,,,,,,
+20250118,Nursery Rhymes for Children (Books),2,1.0,2.0,1.5,6.14,6.14,4.65,10442,1,,,,,,
+20250118,Paranormal Fantasy for Children,1,4.0,4.0,4.0,15.0,15.0,4.8,1624,1,,,,,,
+20250118,Puzzle Books for Children,1,2.0,2.0,2.0,4.0,4.0,4.7,203,1,,,,,,
+20250118,Raising Teenagers,1,1.0,1.0,1.0,5.49,5.49,4.6,5139,1,,,,,,
+20250118,Regency Historical Romance (Books),1,1.0,1.0,1.0,2.45,2.45,4.4,12,1,,,,,,
+20250118,Romantic Action & Adventure,1,3.0,3.0,3.0,0.99,0.99,4.5,11678,1,,,,,,
+20250118,Short Stories for Young Adults,1,1.0,1.0,1.0,5.99,5.99,4.6,599,1,,,,,,
+20250118,Short Story Collections for Children,1,2.0,2.0,2.0,2.99,2.99,4.4,689,1,,,,,,
+20250118,South American Football,1,1.0,1.0,1.0,4.99,4.99,4.7,1731,1,,,,,,
+20250118,Sports & Recreation Biographies for Children,2,1.0,2.0,1.5,6.6,6.6,4.8,2108,1,,,,,,
+20250118,"Sports, Hobby & Games Encyclopaedias",1,1.0,1.0,1.0,12.15,12.15,4.6,140,1,,,,,,
+20250118,"TV, Movie & Video Game Adaptations for Children",1,2.0,2.0,2.0,1.0,1.0,,0,1,,,,,,
+20250118,Teen & Young Adult Occult Horror Fiction eBooks,1,1.0,1.0,1.0,7.99,7.99,4.1,66,1,,,,,,
+20250118,Visionary & Metaphysical Fantasy Fiction for Children,1,1.0,1.0,1.0,7.09,7.09,4.7,5273,1,,,,,,
+20250118,Almanacs & Yearbooks (Books),1,,,,2.99,2.99,4.8,100,2,29.0,29.0,29.0,,,
+20250118,Athletics Biographies,1,,,,7.28,7.28,4.7,86,2,1.0,1.0,1.0,,,
+20250118,Books on Football for Young Adults,1,,,,6.99,6.99,4.7,90,2,1.0,1.0,1.0,,,
+20250118,Child Development,1,,,,5.49,5.49,4.6,5139,2,1.0,1.0,1.0,,,
+20250118,Children's Animal Comics & Graphic Novels,1,,,,5.0,5.0,4.8,574,2,5.0,5.0,5.0,,,
+20250118,Children's Bedtime & Dream Books,1,,,,4.0,4.0,4.8,6596,2,4.0,4.0,4.0,,,
+20250118,Children's Books on American Football,1,,,,7.99,7.99,4.7,69,2,2.0,2.0,2.0,,,
+20250118,Children's Books on Bears,1,,,,6.99,6.99,4.8,52117,2,4.0,4.0,4.0,,,
+20250118,Children's Books on Crafts & Hobbies,1,,,,8.0,8.0,4.8,882,2,3.0,3.0,3.0,,,
+20250118,Children's Books on Dogs,2,,,,5.0,5.0,4.75,44749,2,8.0,14.0,11.0,,,
+20250118,Children's Books on Easter,1,,,,4.0,4.0,4.8,2619,2,1.0,1.0,1.0,,,
+20250118,Children's Books on Emigrants & Immigrants,1,,,,10.0,10.0,4.8,3250,2,1.0,1.0,1.0,,,
+20250118,Children's Books on Emotions & Feelings,1,,,,4.0,4.0,4.8,8752,2,1.0,1.0,1.0,,,
+20250118,Children's Books on Family Life,2,,,,4.0,4.0,4.75,76960,2,24.0,27.0,25.5,,,
+20250118,Children's Books on Football,4,,,,5.92,5.99,4.53,658,2,1.0,11.0,6.0,,,
+20250118,Children's Books on Forests & Trees,2,,,,5.28,5.28,4.7,4522,2,1.0,3.0,2.0,,,
+20250118,Children's Books on Frogs & Toads,1,,,,4.0,4.0,4.8,222,2,2.0,2.0,2.0,,,
+20250118,Children's Books on Health,1,,,,4.87,4.87,4.7,169,2,46.0,46.0,46.0,,,
+20250118,Children's Books on Home,1,,,,4.0,4.0,4.8,6888,2,2.0,2.0,2.0,,,
+20250118,Children's Books on How Things Work,1,,,,12.99,12.99,4.5,22593,2,1.0,1.0,1.0,,,
+20250118,Children's Books on Maths,1,,,,4.0,4.0,4.8,92672,2,1.0,1.0,1.0,,,
+20250118,Children's Books on Motor Sports,1,,,,7.5,7.5,4.9,219,2,1.0,1.0,1.0,,,
+20250118,Children's Books on Nature,2,,,,3.74,3.74,,0,2,4.0,5.0,4.5,,,
+20250118,Children's Books on Performing Arts,1,,,,4.0,4.0,4.8,8406,2,3.0,3.0,3.0,,,
+20250118,Children's Books on Pets,1,,,,8.99,8.99,4.8,27639,2,6.0,6.0,6.0,,,
+20250118,Children's Books on Pigs,2,,,,4.0,4.0,4.8,7946,2,2.0,2.0,2.0,,,
+20250118,Children's Books on Recycling & Green Living,1,,,,4.5,4.5,4.7,2603,2,1.0,1.0,1.0,,,
+20250118,Children's Books on School,1,,,,4.0,4.0,4.7,11424,2,7.0,7.0,7.0,,,
+20250118,"Children's Books on Science, Nature & How It Works",4,,,,4.24,4.99,4.8,1992,2,3.0,34.0,13.0,,,
+20250118,Children's Books on Television & Radio,1,,,,4.99,4.99,4.4,54,2,1.0,1.0,1.0,,,
+20250118,Children's Books on Video & Electronic Games,1,,,,2.99,2.99,4.7,119,2,2.0,2.0,2.0,,,
+20250118,Children's Classic Literature,1,,,,3.69,3.69,4.8,15641,2,1.0,1.0,1.0,,,
+20250118,Children's Comics & Graphic Novels on Social & Philosophical Topics,2,,,,5.5,5.5,4.75,32766,2,2.0,3.0,2.5,,,
+20250118,Children's Early Learning Books on Numbers & Counting,1,,,,4.0,4.0,4.8,3067,2,5.0,5.0,5.0,,,
+20250118,Children's Early Learning Books on Size & Shape,1,,,,4.0,4.0,4.8,30581,2,2.0,2.0,2.0,,,
+20250118,Children's Early Learning Books on the Body,1,,,,7.35,7.35,4.8,2875,2,2.0,2.0,2.0,,,
+20250118,"Children's Fairy Tales, Folklore, Legends & Mythology Comics & Graphic Novels",1,,,,5.99,5.99,4.6,5600,2,1.0,1.0,1.0,,,
+20250118,Children's Humorous Comics & Graphic Novels,5,,,,5.0,4.5,4.72,67797,2,2.0,14.0,9.6,,,
+20250118,Children's Interactive Adventures,1,,,,6.99,6.99,4.7,450,2,2.0,2.0,2.0,,,
+20250118,Children's Mystery & Detective Comics & Graphic Novels,2,,,,8.27,8.27,4.75,29410,2,6.0,8.0,7.0,,,
+20250118,Children's Nonfiction on Sexuality & Pregnancy,1,,,,7.09,7.09,4.8,282,2,9.0,9.0,9.0,,,
+20250118,Children's Superhero Action & Adventure,1,,,,0.99,0.99,4.7,1633,2,1.0,1.0,1.0,,,
+20250118,Children's Sword & Sorcery Fantasy eBooks,1,,,,2.99,2.99,4.5,10233,2,1.0,1.0,1.0,,,
+20250118,Classics for Children,4,,,,5.08,4.5,4.8,29925,2,3.0,22.0,10.25,,,
+20250118,"Dragons, Unicorns & Mythical Creatures Tales for Children",6,,,,6.16,6.49,4.87,59339,2,1.0,6.0,3.5,,,
+20250118,"Early Reader's Rhymes, Verse & Wordplay for Children",1,,,,6.29,6.29,4.7,4842,2,18.0,18.0,18.0,,,
+20250118,Exploring the United States for Children,1,,,,7.79,7.79,4.9,224,2,2.0,2.0,2.0,,,
+20250118,Fiction About Health for Children,1,,,,6.49,6.49,4.8,301,2,1.0,1.0,1.0,,,
+20250118,Fiction About Siblings for Young Adults,1,,,,7.0,7.0,4.7,932,2,6.0,6.0,6.0,,,
+20250118,Fiction Classics for Young Adults,3,,,,16.0,4.0,4.83,218230,2,3.0,6.0,4.67,,,
+20250118,Football References,1,,,,5.4,5.4,4.7,1884,2,3.0,3.0,3.0,,,
+20250118,Football Skills & Coaching,1,,,,3.99,3.99,4.6,358,2,1.0,1.0,1.0,,,
+20250118,Hidden Picture Books for Children,1,,,,4.0,4.0,4.7,203,2,2.0,2.0,2.0,,,
+20250118,Historical Regency Fiction,1,,,,2.45,2.45,4.4,12,2,1.0,1.0,1.0,,,
+20250118,Horror & Ghost Stories for Children,1,,,,4.0,4.0,4.7,2103,2,1.0,1.0,1.0,,,
+20250118,Horror Fantasy,1,,,,7.99,7.99,4.1,66,2,1.0,1.0,1.0,,,
+20250118,Humour Encyclopaedias,1,,,,12.15,12.15,4.6,140,2,2.0,2.0,2.0,,,
+20250118,Intermediate & Advanced Readers for Children,1,,,,7.09,7.09,4.7,5273,2,2.0,2.0,2.0,,,
+20250118,Jokes & Riddles Humour,2,,,,5.17,5.17,4.6,1861,2,3.0,20.0,11.5,,,
+20250118,Magical Realist Fiction for Young Adults,1,,,,15.0,15.0,4.8,1624,2,5.0,5.0,5.0,,,
+20250118,Modern & Contemporary Historical Fiction for Children,1,,,,6.99,6.99,4.7,7734,2,1.0,1.0,1.0,,,
+20250118,Puzzle Books for Children,1,,,,2.99,2.99,4.9,30,2,7.0,7.0,7.0,,,
+20250118,Science Fiction Adventure (Books),1,,,,0.99,0.99,4.5,65628,2,1.0,1.0,1.0,,,
+20250118,Science Fiction for Children,1,,,,4.5,4.5,4.7,1633,2,18.0,18.0,18.0,,,
+20250118,Short Story Collections for Children,1,,,,5.99,5.99,4.6,599,2,4.0,4.0,4.0,,,
+20250118,Soccer Coaching,1,,,,2.99,2.99,4.7,56,2,1.0,1.0,1.0,,,
+20250118,Sports & Recreation Biographies for Children,1,,,,4.99,4.99,4.7,1731,2,3.0,3.0,3.0,,,
+20250118,Sports Humour,1,,,,4.0,4.0,4.7,1318,2,7.0,7.0,7.0,,,
+20250118,Super-Hero Graphic Novels,3,,,,8.52,8.3,4.8,97725,2,4.0,11.0,6.67,,,
+20250118,Superhero Comics for Children,1,,,,6.49,6.49,4.8,2142,2,1.0,1.0,1.0,,,
+20250118,Teen & Young Adult eBooks,1,,,,0.99,0.99,4.5,11678,2,4.0,4.0,4.0,,,
+20250118,Travel & Tourism (Books),1,,,,5.0,5.0,4.5,173598,2,3.0,3.0,3.0,,,
+20250118,Action & Adventure for Children (Books),1,,,,7.35,7.35,4.8,4581,3,,,,42.0,42.0,42.0
+20250118,Activity Books for Children,1,,,,4.0,4.0,4.8,4779,3,,,,12.0,12.0,12.0
+20250118,Adolescent Counselling,1,,,,5.49,5.49,4.6,5139,3,,,,1.0,1.0,1.0
+20250118,Ball Games,1,,,,2.99,2.99,4.7,56,3,,,,1.0,1.0,1.0
+20250118,Children & Young Adult Biographies,2,,,,6.6,6.6,4.8,2108,3,,,,4.0,6.0,5.0
+20250118,Children's Books on Adoption,1,,,,6.99,6.99,4.7,7734,3,,,,1.0,1.0,1.0
+20250118,Children's Books on American Football,2,,,,8.25,8.25,4.45,207,3,,,,1.0,3.0,2.0
+20250118,Children's Books on Bears,1,,,,4.5,4.5,4.7,2603,3,,,,2.0,2.0,2.0
+20250118,Children's Books on Computer Entertainment & Games,1,,,,2.99,2.99,4.7,119,3,,,,2.0,2.0,2.0
+20250118,Children's Books on Dogs,1,,,,1.0,1.0,,0,3,,,,7.0,7.0,7.0
+20250118,Children's Books on Family Life,3,,,,4.5,4.5,4.77,36537,3,,,,25.0,38.0,29.67
+20250118,Children's Books on Farm Animals,3,,,,4.0,4.0,4.8,10565,3,,,,2.0,3.0,2.67
+20250118,Children's Books on Film,1,,,,4.99,4.99,4.4,54,3,,,,1.0,1.0,1.0
+20250118,Children's Books on Football,1,,,,7.09,7.09,4.8,282,3,,,,19.0,19.0,19.0
+20250118,Children's Books on Games,1,,,,2.99,2.99,4.4,689,3,,,,11.0,11.0,11.0
+20250118,Children's Books on History,1,,,,4.99,4.99,4.5,164,3,,,,32.0,32.0,32.0
+20250118,Children's Books on Holidays & Celebrations,1,,,,4.0,4.0,4.8,3067,3,,,,12.0,12.0,12.0
+20250118,Children's Books on Jobs & Careers,1,,,,4.0,4.0,4.9,9364,3,,,,2.0,2.0,2.0
+20250118,Children's Books on Mammals,2,,,,5.74,5.74,4.8,34159,3,,,,8.0,16.0,12.0
+20250118,Children's Books on Marriage & Divorce,1,,,,7.28,7.28,4.7,86,3,,,,1.0,1.0,1.0
+20250118,Children's Books on Mystery & Wonders,6,,,,6.16,6.49,4.83,52078,3,,,,1.0,7.0,4.17
+20250118,Children's Books on Nature,3,,,,4.83,4.0,4.8,8929,3,,,,1.0,7.0,3.67
+20250118,Children's Books on New Babies,1,,,,7.35,7.35,4.8,2875,3,,,,2.0,2.0,2.0
+20250118,Children's Books on School,1,,,,4.0,4.0,4.7,1318,3,,,,20.0,20.0,20.0
+20250118,Children's Books on Self-Esteem & Self-Respect,2,,,,5.68,5.68,4.75,2311,3,,,,1.0,59.0,30.0
+20250118,Children's Books on Sports & the Outdoors,2,,,,5.92,5.92,4.75,2805,3,,,,18.0,23.0,20.5
+20250118,Children's Books on Video & Electronic Games,1,,,,2.99,2.99,4.9,30,3,,,,7.0,7.0,7.0
+20250118,Children's Books on the History of Exploration & Discovery,1,,,,6.99,6.99,4.7,450,3,,,,4.0,4.0,4.0
+20250118,Children's Classic Literature,1,,,,2.99,2.99,4.5,10233,3,,,,2.0,2.0,2.0
+20250118,Children's Early Learning Books on Colours,1,,,,6.99,6.99,4.8,52117,3,,,,4.0,4.0,4.0
+20250118,Children's Early Learning Books on Sounds,1,,,,4.0,4.0,4.8,6596,3,,,,4.0,4.0,4.0
+20250118,Children's Fiction Books on Animals,1,,,,4.0,4.0,4.8,30581,3,,,,5.0,5.0,5.0
+20250118,Children's Humorous Comics & Graphic Novels,4,,,,4.5,4.5,4.75,12529,3,,,,3.0,9.0,4.75
+20250118,"Children's Lion, Tiger & Leopard eBooks",1,,,,3.69,3.69,4.8,15641,3,,,,1.0,1.0,1.0
+20250118,Children's Mystery & Detective Adventure,1,,,,0.99,0.99,4.7,1633,3,,,,1.0,1.0,1.0
+20250118,Children's Reference Books,1,,,,8.0,8.0,4.8,882,3,,,,4.0,4.0,4.0
+20250118,Children’s Daily Activity Fiction Books,1,,,,4.0,4.0,4.8,6888,3,,,,3.0,3.0,3.0
+20250118,Classics for Children,3,,,,4.43,4.0,4.77,13694,3,,,,1.0,47.0,22.0
+20250118,Colouring Books for Children,1,,,,6.99,6.99,4.7,128,3,,,,11.0,11.0,11.0
+20250118,Contemporary Fantasy for Young Adults,2,,,,4.0,4.0,4.8,181285,3,,,,9.0,11.0,10.0
+20250118,Doctors & Medicine Humour,1,,,,4.0,4.0,4.8,15641,3,,,,4.0,4.0,4.0
+20250118,Dystopian Science Fiction (Kindle Store),1,,,,0.99,0.99,4.5,65628,3,,,,1.0,1.0,1.0
+20250118,"Early Reader's Rhymes, Verse & Wordplay for Children",1,,,,5.99,5.99,4.6,5600,3,,,,16.0,16.0,16.0
+20250118,Electronics & Communications Engineering,1,,,,12.99,12.99,4.5,22593,3,,,,1.0,1.0,1.0
+20250118,Enemies to Lovers Romance eBooks,1,,,,0.99,0.99,4.5,11678,3,,,,7.0,7.0,7.0
+20250118,Fantasy & Supernatural Mysteries & Thrillers for Young Adults,1,,,,7.0,7.0,4.7,932,3,,,,6.0,6.0,6.0
+20250118,Fantasy Fiction About Wizards & Witches for Young Adults,1,,,,39.99,39.99,4.9,36945,3,,,,4.0,4.0,4.0
+20250118,Fiction About Family for Children,2,,,,4.0,4.0,4.75,76960,3,,,,25.0,28.0,26.5
+20250118,Fiction About Friendship for Children,1,,,,4.0,4.0,4.7,28746,3,,,,17.0,17.0,17.0
+20250118,Fiction About Values & Virtues for Children,1,,,,7.09,7.09,4.7,5273,3,,,,3.0,3.0,3.0
+20250118,Fiction Classics for Young Adults,2,,,,10.5,10.5,4.7,2223,3,,,,8.0,9.0,8.5
+20250118,Football Biographies (Books),1,,,,4.99,4.99,4.7,1731,3,,,,4.0,4.0,4.0
+20250118,Football References,2,,,,7.49,7.49,4.7,159,3,,,,2.0,4.0,3.0
+20250118,General Humour,2,,,,5.5,5.5,4.75,7481,3,,,,16.0,44.0,30.0
+20250118,Horror Thrillers,1,,,,7.99,7.99,4.1,66,3,,,,1.0,1.0,1.0
+20250118,Humour for Children,1,,,,7.49,7.49,4.7,1047,3,,,,3.0,3.0,3.0
+20250118,Jokes & Riddles Humour,1,,,,7.35,7.35,4.6,299,3,,,,14.0,14.0,14.0
+20250118,Literature & Fiction for Children (Books),2,,,,4.5,4.5,4.8,93246,3,,,,10.0,44.0,27.0
+20250118,Multicultural Biographies for Children,1,,,,7.5,7.5,4.9,219,3,,,,2.0,2.0,2.0
+20250118,Nature Education,1,,,,5.0,5.0,4.7,10590,3,,,,22.0,22.0,22.0
+20250118,Premier League Football,1,,,,3.99,3.99,4.6,358,3,,,,2.0,2.0,2.0
+20250118,Regency Historical Romance (Kindle Store),1,,,,2.45,2.45,4.4,12,3,,,,1.0,1.0,1.0
+20250118,Short Story Collections for Children,1,,,,10.0,10.0,4.8,3250,3,,,,1.0,1.0,1.0
+20250118,Social Sciences (Books),1,,,,5.0,5.0,4.5,173598,3,,,,11.0,11.0,11.0
+20250118,Stories in Verse for Children (Books),1,,,,1.0,1.0,,0,3,,,,14.0,14.0,14.0
+20250118,Super-Hero Graphic Novels,3,,,,8.51,8.27,4.77,57049,3,,,,6.0,8.0,7.0
+20250118,Superhero Comics for Children,5,,,,7.31,8.26,4.78,130491,3,,,,2.0,11.0,5.0
+20250118,Travel Fiction for Children,1,,,,6.57,6.57,4.7,4097,3,,,,6.0,6.0,6.0
+20250118,Wild Mammals,1,,,,4.0,4.0,4.7,425,3,,,,2.0,2.0,2.0

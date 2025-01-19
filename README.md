@@ -3,11 +3,59 @@
 ## Introduction
 Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst with a background in design and project management. My diverse experience allows me to approach data analysis with a unique perspective, combining analytical rigor with creative problem-solving.
 
-## Portfolio Highlights
-- **Freelance Data Analysis**: Provided insights for a small sports company using BigQuery, Apache Airflow, and Tableau to increase customer retention and expand their customer base.
-- **Data-Driven Animation**: Created an AfterEffects animation and website using data from staff step challenges.
-- **Spatial Analysis**: Utilized QGIS for map design and spatial analysis projects.
-- **Green KPI Analysis**: Collected, analyzed, and presented data on company's green key performance indicators.
+## Projects
+**Rabble**
+[Providing insights for a small sports community](./projects/Rabble/readme.md)
+- **Purpose**: to build an automated data pipeline to allow for analysis player participation pattern and identify factors contributing to player retention
+- **Tools**: Python → Google Cloud & BigQuery
+- **Key Deliverables**:
+- Built an automated pipeline to allow ELT (Extract, Load and Transform) process of data from booking system to secure location on Google Cloud
+- Setup of Data Governance policy
+- Created interactive dashboards for exploring performance metrics
+- **Communication Focus**: Strategy and Marketing teams
+- **Data Source**: Rabble data
+
+**PicTotter**
+[InDesign scripts for illustrated fiction briefs](./projects/PicTotter/readme.md)
+- **Purpose**: to streamline the process of managing image counts and briefs for illustrated fiction books
+- **Tools**: ExtendScript → InDesign
+- **Key Deliverables**:
+- Created a modular process for designers
+- Improved consistency of external briefs
+- Enhanced communication between designers, illustrators, and agents
+- **Communication Focus**: Design teams
+
+**Project Gutenberg**
+[Analysing of the Project Gutenberg Corpus](./projects/ProjectGutenberg_Analysis/README.md)
+- **Tools**: Python → Excel
+- **Purpose**: To analysis of digital publishing patterns using Project Gutenberg's multi-language dataset
+- **Key Deliverables**:
+- Built interactive dashboard analyzing 74,896 digital books across 70 languages
+- Conducted language market analysis examining download patterns and distribution
+- Created visualisations for exploring performance metrics
+- **Communication Focus**: Research and Strategy teams
+- **Data Source**: Project Gutenberg catalog
+
+**Amazon Bestsellers**
+[Analysing sections of Amazon Bestseller lists](./projects/AmazonBestseller_Analysis/README.md)
+- **Tools**: Python (BeautifulSoup) + Power BI
+- **Purpose**: to build a market trend analysis using bestseller data
+- **Key Deliverables**: 
+  - Price point analysis dashboard
+  - Genre popularity trends
+  - Format impact study
+  - Seasonal patterns report
+- **Communication Focus**: Editorial and Marketing teams
+- **Data Source**: Amazon Best Sellers lists (ethical scraping)
+
+**Mobile App Data**
+[Analysis and Cleaning](./projects/AnalysingMobileAppData/AnalyzingMobileAppData.ipynb) of app usage on the Apple Store and Android Store 
+- **Tools**: Python 
+- **Purpose**: Market trend analysis using app download data to devise a new app idea to generate revenue from in-apps
+- **Key Deliverables**: 
+  - Data-driven concepts for new apps 
+- **Communication Focus**: Research teams
+- **Data Source**: Apple and Google App Stores
 
 ## Skills and Technologies
 - **Programming**: Python, R, SQL, JavaScript, ExtendScript
@@ -25,6 +73,6 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 
 ## Links
 - [Projects](./projects)
-- [Resume](./resume/AnnaRobinette_CV.pdf)
-- [LinkedIn](https://www.linkedin.com/in/anna-robinette-86785457/) <!-- You'll need to add your actual LinkedIn URL -->
-- [GitHub](https://github.com/annarobinette) <!-- You'll need to add your actual GitHub URL -->
+- [Resume](./CV/AnnaRobinette_CV.pdf)
+- [LinkedIn](https://www.linkedin.com/in/anna-robinette-86785457/) 
+- [GitHub](https://github.com/annarobinette) 
