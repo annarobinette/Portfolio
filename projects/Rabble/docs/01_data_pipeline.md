@@ -1,11 +1,11 @@
 # Rabble Sports Analytics Pipeline
 
-## 01: MakeSweat Data Pipeline Implementation
+### 01: MakeSweat Data Pipeline Implementation
 
 ## Overview
 This document outlines the implementation of an automated data pipeline that extracts data from MakeSweat's API and loads it into Google BigQuery. The pipeline handles both regular incremental updates and historical data loads for multiple clubs.
 
-## Initial Thoughts
+## Initial Analysis of Data Structure
 
 After looking at the booking platform, I understood that the data was available in the following 8 files. There were downloaded in csv for ease of transmitting to other data systems. The files were:
 

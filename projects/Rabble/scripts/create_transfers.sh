@@ -14,77 +14,108 @@ REPORTS=(
     "followersummary"
     "gdproptin"
     "leadersattendees"
-    "peopleinfo"
+    "peoplepasses"
+    "marketingoptin"
 )
+
+# Function to get the correct table name
+get_table_name() {
+    local report=$1
+    local club=$2
+    
+    case $report in
+        "eventattendance")
+            echo "All_Attendees_${club}"
+            ;;
+        "assocclubusage")
+            echo "Associate_Usage_${club}"
+            ;;
+        "leadersattendees")
+            echo "Attendees_and_Leaders_${club}"
+            ;;
+        "clubcomments")
+            echo "Club_Comments_${club}"
+            ;;
+        "gdproptin")
+            echo "Club_Followers_${club}"
+            ;;
+        "clubpayments")
+            echo "Club_Payments_Attendees_${club}"
+            ;;
+        "followersummary")
+            echo "Follower_Summary_${club}"
+            ;;
+        "marketingoptin")
+            echo "Marketing_Opt_in_${club}"
+            ;;
+        "peoplepasses")
+            echo "People_passes_${club}"
+            ;;
+        *)
+            echo "${report}_club${club}"
+            ;;
+    esac
+}
 
 function create_current_transfer {
     local club=$1
     local report=$2
+    local table_name=$(get_table_name "$report" "$club")
     
     bq mk --transfer_config \
         --project_id=$PROJECT_ID \
         --target_dataset=$CURRENT_DATASET \
-        --display_name="Current Transfer ${report} club${club}" \
+        --display_name="Current Transfer ${table_name}" \
         --data_source=google_cloud_storage \
         --params='{
             "data_path_template":"gs://'${BUCKET}'/data/'${report}'_club'${club}'_*.csv",
-            "destination_table_name_template":"'${report}'_club'${club}'",
+            "destination_table_name_template":"'${table_name}'",
             "file_format":"CSV",
-            "max_bad_records":10,
+            "max_bad_records":"10",
             "write_disposition":"MIRROR",
-            "allow_jagged_rows":true,
-            "allow_quoted_newlines":true,
-            "skip_leading_rows":1,
+            "allow_jagged_rows":"true",
+            "allow_quoted_newlines":"true",
+            "skip_leading_rows":"1",
             "field_delimiter":",",
             "quote":"\"",
-            "encoding":"UTF-8"
+            "encoding":"UTF8"
         }' \
         --schedule_start_time="2025-01-20T09:45:00Z" \
-        --schedule="weekly monday,friday 09:45" \
+        --schedule="every mon,fri of month 09:45" \
         --location=europe-west2
     
-    echo "Created current transfer for ${report}_club${club}"
+    echo "Created current transfer for ${table_name}"
 }
 
 function create_historical_transfer {
     local club=$1
     local report=$2
+    local table_name=$(get_table_name "$report" "$club")
     
     bq mk --transfer_config \
         --project_id=$PROJECT_ID \
         --target_dataset=$HISTORICAL_DATASET \
-        --display_name="Historical Transfer ${report} club${club}" \
+        --display_name="Historical Transfer ${table_name}" \
         --data_source=google_cloud_storage \
         --params='{
             "data_path_template":"gs://'${BUCKET}'/backup/'${report}'_club'${club}'_*.csv",
-            "destination_table_name_template":"'${report}'_club'${club}'",
+            "destination_table_name_template":"'${table_name}'",
             "file_format":"CSV",
-            "max_bad_records":10,
+            "max_bad_records":"10",
             "write_disposition":"MIRROR",
-            "allow_jagged_rows":true,
-            "allow_quoted_newlines":true,
-            "skip_leading_rows":1,
+            "allow_jagged_rows":"true",
+            "allow_quoted_newlines":"true",
+            "skip_leading_rows":"1",
             "field_delimiter":",",
             "quote":"\"",
-            "encoding":"UTF-8"
+            "encoding":"UTF8"
         }' \
         --schedule_start_time="2025-01-20T09:45:00Z" \
-        --schedule="quarterly 09:45" \
+        --schedule="1 of quarter 09:45" \
         --location=europe-west2
     
-    echo "Created historical transfer for ${report}_club${club}"
+    echo "Created historical transfer for ${table_name}"
 }
-
-# First, delete the existing historical dataset if it exists
-#echo "Removing existing historical dataset if it exists..."
-#bq rm -r -f ${PROJECT_ID}:${HISTORICAL_DATASET}
-
-# Create the historical dataset with correct location
-# echo "Creating historical dataset in europe-west2..."
-#bq mk --dataset \
-#    --description "Historical Rabble data from MakeSweat" \
- #   --location=europe-west2 \
- #   ${PROJECT_ID}:${HISTORICAL_DATASET}
 
 # Create transfers for current data
 echo "Creating current data transfers..."
@@ -97,7 +128,7 @@ do
     done
 done
 
-# Create transfers for historical data
+# Create historical data transfers
 echo "Creating historical data transfers..."
 for club in "${CLUBS[@]}"
 do
@@ -109,28 +140,3 @@ do
 done
 
 echo "Script execution completed."
-
-
-
-
-
-<<Errors
-igQuery error in mk operation: The specified schedule is invalid: [weekly monday,friday 09:45]
-Created current transfer for followersummary_club227
-BigQuery error in mk operation: The specified schedule is invalid: [weekly monday,friday 09:45]
-Created current transfer for gdproptin_club227
-BigQuery error in mk operation: The specified schedule is invalid: [weekly monday,friday 09:45]
-Created current transfer for leadersattendees_club227
-BigQuery error in mk operation: The specified schedule is invalid: [weekly monday,friday 09:45]
-Created current transfer for peopleinfo_club227
-Creating historical data transfers...
-BigQuery error in mk operation: The specified schedule is invalid: [quarterly 09:45]
-Created historical transfer for assocclubusage_club225
-BigQuery error in mk operation: The specified schedule is invalid: [quarterly 09:45]
-Created historical transfer for clubcomments_club225
-BigQuery error in mk operation: The specified schedule is invalid: [quarterly 09:45]
-Created historical transfer for clubpayments_club225
-BigQuery error in mk operation: The specified schedule is invalid: [quarterly 09:45]
-Created historical transfer for eventattendance_club225
-BigQuery error in mk operation: The specified schedule is inv
-Errors

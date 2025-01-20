@@ -13,10 +13,18 @@ A year on, they wanted to look at the data that was building up in booking syste
 
 ![Booking platform dashboards](./images/bookingplatform_dashboard.png)
 
-My project is to extract both data and insights from the booking platform into the usable insights to help Rabble sustainably grow. This project on gitHub is to showcase the work I am doing, and will always be considered a work in progress. Rabble functions not only as a business but as a community. While I speak about the necessary KPI's and revenue streams, imy language will reflect the humanity of Rabble and how it seeks to understand its players: not to drive profit but to include them in a community.
+My project is to extract both data and insights from the booking platform into the usable insights to help Rabble sustainably grow. This project on GitHub showcases the work I am doing, and will always be considered a work in progress. Rabble functions not only as a business but as a community and while I speak about the necessary KPI's and revenue streams, my language will reflect the humanity of Rabble. Rabble first and and foremost seeks to understand its players, not to increase profit but to include them in a community.
 
 ## Project Overview
 This project implements an automated data pipeline and analytics platform for Rabble London, focusing on member engagement analysis, retention optimization, and GDPR-compliant data management. The system processes daily activity data from multiple sources, transforms it for analysis, and provides actionable insights through interactive dashboards.
+
+### Summary of documentation
+1. [Data Pipeline Implementation](./docs/01_data_pipeline.md)
+2. Data Cleaning and Processing
+3. Analytics Dashboard Development
+4. [GDPR Compliance Implementation](./docs/04_gdpr_compliance.md)
+5. Project Planning and Costs
+6. Performance Optimization
 
 ### Aims
 1. **Player Engagement Optimization**
@@ -149,19 +157,19 @@ This project implements an automated data pipeline and analytics platform for Ra
 *To come: an Entity Relationship Diagram showing key tables and relationships*
 
 ## Project Documentation
-Detailed documentation of my process is available in the following notebooks:
+Detailed documentation of my process is available in the following notebooks (still in progress):
 
 1. [Data Pipeline Implementation](./docs/01_data_pipeline.md)
    - MakeSweat API integration
    - Automated data extraction
    - GCP storage configuration
 
-2. [Data Cleaning and Processing](./docs/02_data_cleaning.md)
+2. [Data Cleaning and Processing]
    - Data validation rules
    - Transformation logic
    - Quality assurance processes
 
-3. [Analytics Dashboard Development](./docs/03_dashboards.md)
+3. [Analytics Dashboard Development]
    - KPI definitions
    - Visualization design
    - User interface implementation
@@ -171,12 +179,12 @@ Detailed documentation of my process is available in the following notebooks:
    - Anonymization procedures
    - Retention policies
 
-5. [Project Planning and Costs](./docs/05_project_planning.md)
+5. [Project Planning and Costs]
    - Resource allocation
    - Timeline management
    - Budget considerations
 
-6. [Performance Optimization](./docs/06_optimization.md)
+6. Performance Optimization
    - Query optimization
    - Pipeline efficiency
    - System monitoring

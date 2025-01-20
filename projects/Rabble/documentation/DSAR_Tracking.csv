@@ -1,0 +1,28 @@
+Request ID,Date Received,Request Type,Subject Name,Subject ID,Status,Due Date,Days Remaining
+Request Details,,,,,,,,
+Platform,Request Sent,Confirmation Received,Follow-up Required,Follow-up Date,Completion Status,Notes,
+MakeSweat,,,,,,,,
+Stripe,,,,,,,,
+GCS,,,,,,,,
+
+Timeline Checklist,,,,,,,,
+Action,Target Date,Completion Date,Status,Notes,,,,
+Request Receipt,Day 0,,,,,,,,
+Identity Verification,Day 2,,,,,,,,
+Initial Assessment,Day 3,,,,,,,,
+Processor Notifications,Day 4,,,,,,,,
+First Follow-up,Day 7,,,,,,,,
+Second Follow-up,Day 14,,,,,,,,
+Final Follow-up,Day 21,,,,,,,,
+Quality Check,Day 25,,,,,,,,
+Request Closure,Day 28,,,,,,,,
+
+Retention Requirements,,,,,,,,
+Data Type,Retention Period,Legal Basis,Status,,,,
+Payment Records,7 years,Legal Requirement,,,,,
+Attendance Records,3 years,Business Purpose,,,,,
+Incident Reports,5 years,Legal Requirement,,,,,
+Membership Records,2 years post-termination,Business Purpose,,,,,
+
+Communication Log,,,,,,,,
+Date,Platform,Type,Summary,Response Required,Follow-up Date,Status,Notes

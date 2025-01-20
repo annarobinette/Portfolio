@@ -5,7 +5,7 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 
 ## Projects
 
-[**Rabble**](./projects/Rabble/readme.md)
+### [**Rabble**](./projects/Rabble/readme.md)
 - **Purpose**: to build an automated data pipeline for a sports community to allow for analysis player participation pattern and identify factors contributing to player retention
 - **Tools**: Python → Google Cloud & BigQuery
 - **Key Deliverables**:
@@ -16,7 +16,7 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 - **Data Source**: Rabble data
 
 
-[**PicTotter**](./projects/PicTotter/readme.md)
+### [**PicTotter**](./projects/PicTotter/readme.md)
 
 - **Purpose**: to streamline the process of managing image counts in briefs for illustrated fiction books
 - **Tools**: ExtendScript → InDesign
@@ -27,7 +27,7 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 - **Communication Focus**: Design teams
 
 
-[**Project Gutenberg**](./projects/ProjectGutenberg_Analysis/README.md)
+### [**Project Gutenberg**](./projects/ProjectGutenberg_Analysis/README.md)
 
 - **Purpose**: To analysis of digital publishing patterns using Project Gutenberg's multi-language dataset
 - **Tools**: Python → Excel
@@ -39,10 +39,10 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 - **Data Source**: Project Gutenberg catalogue
 
 
-[**Amazon Bestsellers**](./projects/AmazonBestseller_Analysis/README.md)
+### [**Amazon Bestsellers**](./projects/AmazonBestseller_Analysis/README.md)
 
-- **Tools**: Python (BeautifulSoup) + Power BI
 - **Purpose**: Analysing sections of Amazon Bestseller lists to capture market trends
+- **Tools**: Python (BeautifulSoup) + Power BI
 - **Key Deliverables**: 
   - Price point analysis dashboard
   - Genre popularity trends
@@ -52,10 +52,10 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 - **Data Source**: Amazon Best Sellers lists (ethical scraping)
 
 
-[**Mobile App Data**](./projects/AnalysingMobileAppData/AnalyzingMobileAppData.ipynb)
+### [**Mobile App Data**](./projects/AnalysingMobileAppData/AnalyzingMobileAppData.ipynb)
 
-- **Tools**: Python 
 - **Purpose**: Market trend analysis using app download data from the Apple Store and Android Store to devise a new app idea to generate revenue from in-app ads
+- **Tools**: Python 
 - **Key Deliverables**: 
   - Identify patterns of downlaods across genres
   - Scope popular yet underserved niches
