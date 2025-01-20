@@ -101,7 +101,6 @@ This project implements an automated data pipeline and analytics platform for Ra
 3. **Financial Data**
    - Transaction Records
    - Pass Usage
-   - Refund History
    - Payment Methods
 
 #### Reporting Requirements
