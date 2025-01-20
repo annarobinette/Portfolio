@@ -16,7 +16,7 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 - **Data Source**: Rabble data
 
 
-### [**PicTotter**](./projects/PicTotter/readme.md)
+### [**PicTotter**](https://github.com/annarobinette/PicTotter/blob/main/README.md)
 
 - **Purpose**: to streamline the process of managing image counts in briefs for illustrated fiction books
 - **Tools**: ExtendScript → InDesign
