@@ -10,6 +10,7 @@ The database part of the project is stored in the following structure:
 ```
 database/
 ├── README.md                                   # This file
+├── final_presentation.key                      # Presentation
 ├── backup/
 │   └── running_stitch_full_backup.sql # The backup
 ├── output_data/
