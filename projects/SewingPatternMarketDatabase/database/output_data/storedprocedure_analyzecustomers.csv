@@ -1,0 +1,222 @@
+country,customer_count,total_spent,avg_order_value
+Somalia,4,2077.35,10.653077
+Maldives,6,1560.45,10.761724
+"Isle of Man",6,1522.30,11.031159
+"Solomon Islands",3,1265.65,11.102193
+Palau,5,1189.25,11.219340
+China,2,1177.10,10.416814
+Lithuania,4,1106.50,10.438679
+Nicaragua,6,1105.00,11.755319
+Korea,3,1086.95,10.656373
+Singapore,4,1013.70,11.263333
+Botswana,6,999.05,10.978571
+Madagascar,1,895.55,11.056173
+"Brunei Darussalam",5,880.25,10.605422
+"Pitcairn Islands",3,856.90,9.628090
+"United Arab Emirates",3,828.10,10.754545
+Niger,1,823.50,10.293750
+Chile,5,821.65,11.737857
+"Saint Kitts and Nevis",3,811.00,10.959459
+Tunisia,2,788.30,11.592647
+Martinique,6,779.60,10.679452
+Macao,3,778.30,10.809722
+"Cape Verde",1,756.90,11.826563
+Israel,5,747.50,11.500000
+Angola,1,738.40,12.104918
+Timor-Leste,3,713.25,10.973077
+"Saint Pierre and Miquelon",3,709.10,12.018644
+Tanzania,3,708.30,10.731818
+Estonia,3,689.00,10.600000
+Georgia,4,679.15,11.133607
+Bulgaria,3,670.20,10.638095
+Fiji,4,663.20,10.526984
+Philippines,4,660.25,10.649194
+India,3,659.80,11.996364
+Ethiopia,2,640.75,11.865741
+Reunion,2,624.05,10.065323
+"Cote d'Ivoire",3,620.95,10.706034
+Luxembourg,4,619.10,10.493220
+"Dominican Republic",4,618.45,9.370455
+"El Salvador",3,613.70,9.741270
+Bangladesh,6,585.55,10.095690
+Niue,5,578.50,11.806122
+"French Guiana",3,577.90,11.331373
+Honduras,5,575.50,11.744898
+Montenegro,3,561.45,10.025893
+Haiti,5,549.65,10.570192
+Iceland,3,548.55,9.973636
+Guyana,3,533.20,11.848889
+"United Kingdom",2,510.55,11.345556
+Greenland,4,506.40,11.509091
+Hungary,3,500.50,11.375000
+"Heard Island and McDonald Islands",4,497.00,11.044444
+Germany,1,490.30,10.658696
+Cyprus,5,489.00,11.372093
+Canada,2,480.40,10.918182
+Indonesia,2,480.30,10.915909
+"United States Virgin Islands",5,474.20,11.855000
+Greece,2,468.30,12.656757
+Belgium,4,464.60,11.331707
+Poland,3,462.50,12.500000
+"Falkland Islands (Malvinas)",3,452.80,9.634043
+Ukraine,2,423.90,11.456757
+Brazil,3,423.70,10.864103
+Bahrain,2,415.15,11.220270
+"Saint Helena",3,414.80,10.915789
+Denmark,2,405.90,10.681579
+Guernsey,1,403.40,11.864706
+"Puerto Rico",2,395.30,11.626471
+Burundi,4,393.25,11.566176
+Guadeloupe,5,391.80,10.310526
+Suriname,4,380.25,10.864286
+Micronesia,3,376.90,11.085294
+Mali,3,374.70,10.408333
+"French Southern Territories",3,355.50,10.772727
+"Kyrgyz Republic",2,353.50,10.712121
+Senegal,4,344.75,10.446970
+Zambia,5,336.55,11.605172
+Croatia,2,333.90,11.513793
+"Saint Martin",2,333.15,12.338889
+"Costa Rica",2,332.20,10.066667
+Yemen,3,331.60,10.696774
+Mauritania,3,329.70,9.990909
+Algeria,2,326.30,9.322857
+Namibia,2,324.10,11.575000
+"United States Minor Outlying Islands",2,323.50,12.442308
+"Lao People's Democratic Republic",3,320.75,12.336538
+Sudan,4,315.80,9.868750
+"Cayman Islands",3,308.50,10.283333
+"Bouvet Island (Bouvetoya)",1,306.50,11.788462
+"Saint Lucia",2,299.20,11.507692
+Uruguay,1,298.70,9.635484
+"Cocos (Keeling) Islands",2,287.15,9.901724
+Armenia,4,277.75,11.572917
+Guam,3,271.40,10.438462
+Djibouti,3,271.05,10.425000
+"Saint Vincent and the Grenadines",1,265.40,12.063636
+Tuvalu,3,263.30,11.968182
+Colombia,2,260.25,11.315217
+"South Georgia and the South Sandwich Islands",2,254.10,10.164000
+"French Polynesia",3,253.80,11.034783
+"United States of America",2,252.30,11.468182
+Aruba,4,242.80,12.140000
+Nepal,3,237.00,10.772727
+"Libyan Arab Jamahiriya",2,230.40,14.400000
+Grenada,2,230.30,10.966667
+Australia,2,229.20,12.063158
+"New Caledonia",1,229.20,11.460000
+Rwanda,3,227.25,11.960526
+Bolivia,3,221.20,10.533333
+Swaziland,2,221.00,10.523810
+Benin,3,218.60,9.108333
+Bermuda,3,214.00,13.375000
+Gambia,3,209.50,12.323529
+"Antarctica (the territory South of 60 deg S)",3,208.20,12.247059
+Peru,2,207.60,9.436364
+Jordan,3,202.10,10.636842
+Vanuatu,3,200.35,11.785294
+Panama,1,199.60,9.072727
+"Marshall Islands",2,199.10,10.478947
+"South Africa",1,198.00,12.375000
+"Russian Federation",2,195.80,10.877778
+Morocco,3,194.00,11.411765
+Tonga,2,190.30,11.893750
+"Norfolk Island",2,187.20,9.360000
+Switzerland,2,182.40,11.400000
+"Holy See (Vatican City State)",3,181.90,12.126667
+Jamaica,3,181.50,10.083333
+Malawi,2,181.00,10.647059
+Kiribati,4,177.00,12.642857
+Montserrat,3,177.00,10.411765
+Zimbabwe,2,176.80,11.786667
+Andorra,2,176.00,10.352941
+Vietnam,2,174.60,10.270588
+"Sao Tome and Principe",3,173.70,11.580000
+Nauru,1,172.50,10.781250
+"New Zealand",1,163.50,12.576923
+Paraguay,2,156.90,12.069231
+France,2,155.45,9.715625
+Portugal,2,152.40,10.160000
+"Wallis and Futuna",2,149.30,11.484615
+"Saint Barthelemy",1,148.30,10.592857
+"Turks and Caicos Islands",2,148.00,11.384615
+Gibraltar,4,145.70,10.407143
+"Cook Islands",4,144.70,11.130769
+Ghana,2,140.25,8.250000
+"Svalbard & Jan Mayen Islands",1,136.00,9.714286
+Myanmar,2,128.50,12.850000
+Austria,3,128.40,10.700000
+Guatemala,2,125.75,12.575000
+Moldova,2,123.00,15.375000
+Mauritius,2,120.30,10.936364
+"Sierra Leone",3,120.00,8.571429
+"Northern Mariana Islands",3,109.80,10.980000
+Barbados,1,105.00,10.500000
+Chad,2,103.00,12.875000
+"Burkina Faso",2,102.00,11.333333
+Tajikistan,4,100.30,10.030000
+Netherlands,2,99.90,9.990000
+Romania,2,99.50,12.437500
+Japan,1,97.00,10.777778
+Pakistan,2,97.00,12.125000
+Kuwait,2,90.70,10.077778
+"San Marino",3,87.00,9.666667
+Sweden,1,87.00,14.500000
+Comoros,2,85.00,12.142857
+Ireland,2,84.80,8.480000
+Qatar,2,84.70,8.470000
+Mongolia,1,83.00,13.833333
+Mexico,1,78.75,9.843750
+"Sri Lanka",2,78.50,9.812500
+Belarus,1,77.90,12.983333
+"Saudi Arabia",1,77.50,12.916667
+Jersey,2,72.80,9.100000
+Bahamas,2,69.00,9.857143
+"Palestinian Territory",2,68.30,11.383333
+Mozambique,1,66.85,13.370000
+Argentina,2,63.20,12.640000
+Latvia,2,62.80,8.971429
+Slovenia,1,62.00,10.333333
+Norway,1,61.50,7.687500
+Uganda,2,57.00,8.142857
+Albania,2,56.35,11.270000
+"Bosnia and Herzegovina",1,54.90,10.980000
+"Netherlands Antilles",2,54.00,9.000000
+"Trinidad and Tobago",1,52.00,13.000000
+Mayotte,1,50.00,6.250000
+"Hong Kong",2,49.40,12.350000
+Spain,1,48.75,9.750000
+Cuba,2,47.00,11.750000
+Serbia,1,46.90,11.725000
+Afghanistan,2,46.20,11.550000
+"Equatorial Guinea",1,41.00,13.666667
+Monaco,2,39.50,9.875000
+Tokelau,1,38.95,12.983333
+Eritrea,2,38.50,12.833333
+Venezuela,1,38.50,12.833333
+Seychelles,2,38.00,12.666667
+"Faroe Islands",2,37.00,6.166667
+"Papua New Guinea",1,36.30,12.100000
+Bhutan,1,35.00,11.666667
+Togo,1,33.00,11.000000
+Finland,1,26.50,13.250000
+"Antigua and Barbuda",2,26.00,13.000000
+Guinea,1,26.00,6.500000
+"Slovakia (Slovak Republic)",2,25.50,12.750000
+"Central African Republic",1,22.00,11.000000
+Kazakhstan,1,22.00,11.000000
+"Western Sahara",1,21.00,10.500000
+Cambodia,1,20.00,10.000000
+Malaysia,1,16.90,8.450000
+"Czech Republic",1,16.00,8.000000
+Ecuador,1,14.50,7.250000
+"Syrian Arab Republic",1,14.00,4.666667
+"American Samoa",1,12.00,12.000000
+Turkey,1,12.00,12.000000
+Nigeria,1,11.00,3.666667
+Turkmenistan,1,11.00,5.500000
+"Christmas Island",1,10.50,10.500000
+Uzbekistan,1,6.50,3.250000
+Congo,1,0.00,0.000000
+Guinea-Bissau,1,0.00,0.000000
+Samoa,1,0.00,0.000000

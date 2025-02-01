@@ -76,55 +76,50 @@ class MakeSweatPipeline:
     def get_date_range(self) -> Tuple[str, str]:
         """Get date range based on pipeline type"""
         if self.is_historical:
-            # Historical data starts from 2015
             start_date = "2015-01-01"
-            end_date = datetime.now().strftime('%Y-%m-%d')
         else:
-            # Weekly data is last 7 days
+            # Extend weekly range to 30 days to ensure data
             today = datetime.now()
-            seven_days_ago = today - timedelta(days=7)
-            start_date = seven_days_ago.strftime('%Y-%m-%d')
-            end_date = today.strftime('%Y-%m-%d')
+            start_date = (today - timedelta(days=30)).strftime('%Y-%m-%d')
         
+        end_date = datetime.now().strftime('%Y-%m-%d')
         return start_date, end_date
 
-    def fetch_and_upload_report(self, club_id: str, report_name: str, 
-                              start_date: str, end_date: str) -> None:
-        """Fetch report and upload directly to GCS"""
+    def fetch_and_upload_report(self, club_id: str, report_name: str, start_date: str, end_date: str) -> None:
         try:
-            # Construct URL
-            url = (f"https://makesweat.com/reports/{report_name}.php"
-                  f"?clubid={club_id}&starttime={start_date}%2023:00:00"
-                  f"&endtime={end_date}%2023:00:00&format=csv"
-                  f"&makesweatuserident={self.config['userident']}")
-
-            # Create session with default TLS settings
+            url = f"https://makesweat.com/reports/{report_name}.php?clubid={club_id}&starttime={start_date}%2000:00:00&endtime={end_date}%2000:00:00&format=csv&makesweatuserident={self.config['userident']}"
+            
+            # Debug without line breaks
+            logging.info(f"URL: {url.replace('\n', '')}")
+            
             session = requests.Session()
+            response = session.get(url.replace('\n', ''))
+            content = response.content
             
-            response = session.get(url)
-            response.raise_for_status()
-
-            # Generate clean filename without any special characters
-            timestamp = datetime.now().strftime('%Y%m%d')
-            clean_report_name = report_name.strip()
-            clean_club_id = str(club_id).strip()
-            filename = f"{clean_report_name}_club{clean_club_id}_{timestamp}.csv"
-            gcs_blob_name = os.path.join(self.gcs_folder, filename).replace('\\', '/')
-            
-            # Upload directly to GCS using a temporary file
-            with tempfile.NamedTemporaryFile(mode='wb', delete=True) as temp_file:
-                temp_file.write(response.content)
-                temp_file.flush()
+            logging.info(f"Response length: {len(content)}")
+            with open(f'debug_{report_name}_{club_id}.txt', 'wb') as f:
+                f.write(b"URL: " + url.encode() + b"\n\nResponse:\n" + content)
                 
-                # Upload to appropriate folder using clean path
-                blob = self.bucket.blob(gcs_blob_name)
-                blob.upload_from_filename(temp_file.name)
+            csv_lines = content.decode('utf-8').strip().split('\n')
+            if len(csv_lines) > 1 and not any(error_text in content for error_text in [b"Warning", b"Notice", b"Error"]):
+                timestamp = datetime.now().strftime('%Y%m%d')
+                filename = f"{report_name.strip()}_club{str(club_id).strip()}_{timestamp}.csv"
+                gcs_blob_name = os.path.join(self.gcs_folder, filename).replace('\\', '/')
+                
+                with tempfile.NamedTemporaryFile(mode='wb', delete=True) as temp_file:
+                    temp_file.write(content)
+                    temp_file.flush()
+                    blob = self.bucket.blob(gcs_blob_name)
+                    blob.upload_from_filename(temp_file.name)
 
-            logging.info(f"Successfully processed {filename}")
-            
+                logging.info(f"Successfully processed {filename}")
+            else:
+                logging.error(f"Invalid response for {report_name}, club {club_id}. Lines: {len(csv_lines)}, Size: {len(content)}")
+                
         except Exception as e:
             logging.error(f"Error processing {report_name} for club {club_id}: {str(e)}")
             raise
+   
 
     def run(self):
         """Run the pipeline"""

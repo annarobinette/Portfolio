@@ -2,3 +2,183 @@ Traceback (most recent call last):
   File "/Users/anna/Documents/GitHub/Portfolio/projects/Rabble/scripts/makesweat_pipeline.py", line 3, in <module>
     import requests
 ModuleNotFoundError: No module named 'requests'
+Running weekly pipeline...
+2025-01-24 09:00:04,916 - INFO - Processing club 225
+2025-01-24 09:00:04,916 - INFO - URL: https://makesweat.com/reports/eventattendance.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:05,850 - INFO - Response length: 46485
+2025-01-24 09:00:06,155 - INFO - Successfully processed eventattendance_club225_20250124.csv
+2025-01-24 09:00:06,155 - INFO - URL: https://makesweat.com/reports/clubpayments.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:07,389 - INFO - Response length: 4630
+2025-01-24 09:00:07,491 - INFO - Successfully processed clubpayments_club225_20250124.csv
+2025-01-24 09:00:07,491 - INFO - URL: https://makesweat.com/reports/leadersattendees.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:07,795 - INFO - Response length: 2310
+2025-01-24 09:00:07,885 - INFO - Successfully processed leadersattendees_club225_20250124.csv
+2025-01-24 09:00:07,885 - INFO - URL: https://makesweat.com/reports/assocclubusage.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:09,535 - INFO - Response length: 2340
+2025-01-24 09:00:09,639 - INFO - Successfully processed assocclubusage_club225_20250124.csv
+2025-01-24 09:00:09,639 - INFO - URL: https://makesweat.com/reports/clubcomments.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:09,997 - INFO - Response length: 173
+2025-01-24 09:00:09,998 - ERROR - Invalid response for clubcomments, club 225. Lines: 1, Size: 173
+2025-01-24 09:00:09,998 - INFO - URL: https://makesweat.com/reports/peopleinfo.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:12,965 - INFO - Response length: 390522
+2025-01-24 09:00:13,148 - INFO - Successfully processed peopleinfo_club225_20250124.csv
+2025-01-24 09:00:13,149 - INFO - URL: https://makesweat.com/reports/gdproptin.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:13,705 - INFO - Response length: 123522
+2025-01-24 09:00:13,823 - INFO - Successfully processed gdproptin_club225_20250124.csv
+2025-01-24 09:00:13,824 - INFO - URL: https://makesweat.com/reports/followersummary.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:19,007 - INFO - Response length: 484233
+2025-01-24 09:00:19,200 - INFO - Successfully processed followersummary_club225_20250124.csv
+2025-01-24 09:00:19,200 - INFO - URL: https://makesweat.com/reports/peoplepasses.php?clubid=225&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:23,171 - INFO - Response length: 219617
+2025-01-24 09:00:23,298 - INFO - Successfully processed peoplepasses_club225_20250124.csv
+2025-01-24 09:00:23,298 - INFO - Processing club 227
+
+2025-01-24 09:00:23,298 - INFO - URL: https://makesweat.com/reports/eventattendance.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:23,974 - INFO - Response length: 28998
+2025-01-24 09:00:24,052 - INFO - Successfully processed eventattendance_club227_20250124.csv
+2025-01-24 09:00:24,052 - INFO - URL: https://makesweat.com/reports/clubpayments.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:25,203 - INFO - Response length: 3166
+2025-01-24 09:00:25,287 - INFO - Successfully processed clubpayments_club227_20250124.csv
+2025-01-24 09:00:25,288 - INFO - URL: https://makesweat.com/reports/leadersattendees.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:25,817 - INFO - Response length: 1926
+2025-01-24 09:00:25,910 - INFO - Successfully processed leadersattendees_club227_20250124.csv
+2025-01-24 09:00:25,911 - INFO - URL: https://makesweat.com/reports/assocclubusage.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:27,660 - INFO - Response length: 1262
+2025-01-24 09:00:27,759 - INFO - Successfully processed assocclubusage_club227_20250124.csv
+2025-01-24 09:00:27,760 - INFO - URL: https://makesweat.com/reports/clubcomments.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:28,274 - INFO - Response length: 173
+2025-01-24 09:00:28,275 - ERROR - Invalid response for clubcomments, club 227
+. Lines: 1, Size: 173
+2025-01-24 09:00:28,275 - INFO - URL: https://makesweat.com/reports/peopleinfo.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:29,621 - INFO - Response length: 100659
+2025-01-24 09:00:29,727 - INFO - Successfully processed peopleinfo_club227_20250124.csv
+2025-01-24 09:00:29,728 - INFO - URL: https://makesweat.com/reports/gdproptin.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:30,150 - INFO - Response length: 27803
+2025-01-24 09:00:30,247 - INFO - Successfully processed gdproptin_club227_20250124.csv
+2025-01-24 09:00:30,247 - INFO - URL: https://makesweat.com/reports/followersummary.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:32,692 - INFO - Response length: 126755
+2025-01-24 09:00:32,805 - INFO - Successfully processed followersummary_club227_20250124.csv
+2025-01-24 09:00:32,805 - INFO - URL: https://makesweat.com/reports/peoplepasses.php?clubid=227&starttime=2024-12-25%2000:00:00&endtime=2025-01-24%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-24 09:00:35,955 - INFO - Response length: 41459
+2025-01-24 09:00:36,055 - INFO - Successfully processed peoplepasses_club227_20250124.csv
+2025-01-24 09:00:36,056 - INFO - Pipeline completed successfully
+Running weekly pipeline...
+2025-01-27 09:00:03,893 - INFO - Processing club 225
+2025-01-27 09:00:03,895 - INFO - URL: https://makesweat.com/reports/eventattendance.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:04,788 - INFO - Response length: 51012
+2025-01-27 09:00:05,113 - INFO - Successfully processed eventattendance_club225_20250127.csv
+2025-01-27 09:00:05,114 - INFO - URL: https://makesweat.com/reports/clubpayments.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:06,219 - INFO - Response length: 4937
+2025-01-27 09:00:06,318 - INFO - Successfully processed clubpayments_club225_20250127.csv
+2025-01-27 09:00:06,319 - INFO - URL: https://makesweat.com/reports/leadersattendees.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:06,731 - INFO - Response length: 2586
+2025-01-27 09:00:06,822 - INFO - Successfully processed leadersattendees_club225_20250127.csv
+2025-01-27 09:00:06,822 - INFO - URL: https://makesweat.com/reports/assocclubusage.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:08,576 - INFO - Response length: 2663
+2025-01-27 09:00:08,668 - INFO - Successfully processed assocclubusage_club225_20250127.csv
+2025-01-27 09:00:08,669 - INFO - URL: https://makesweat.com/reports/clubcomments.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:10,929 - INFO - Response length: 173
+2025-01-27 09:00:10,930 - ERROR - Invalid response for clubcomments, club 225. Lines: 1, Size: 173
+2025-01-27 09:00:10,930 - INFO - URL: https://makesweat.com/reports/peopleinfo.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:13,953 - INFO - Response length: 390964
+2025-01-27 09:00:14,149 - INFO - Successfully processed peopleinfo_club225_20250127.csv
+2025-01-27 09:00:14,150 - INFO - URL: https://makesweat.com/reports/gdproptin.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:14,735 - INFO - Response length: 123661
+2025-01-27 09:00:14,838 - INFO - Successfully processed gdproptin_club225_20250127.csv
+2025-01-27 09:00:14,838 - INFO - URL: https://makesweat.com/reports/followersummary.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:18,036 - INFO - Response length: 484832
+2025-01-27 09:00:18,252 - INFO - Successfully processed followersummary_club225_20250127.csv
+2025-01-27 09:00:18,253 - INFO - URL: https://makesweat.com/reports/peoplepasses.php?clubid=225&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:22,121 - INFO - Response length: 219909
+2025-01-27 09:00:22,253 - INFO - Successfully processed peoplepasses_club225_20250127.csv
+2025-01-27 09:00:22,254 - INFO - Processing club 227
+
+2025-01-27 09:00:22,254 - INFO - URL: https://makesweat.com/reports/eventattendance.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:22,807 - INFO - Response length: 28998
+2025-01-27 09:00:22,902 - INFO - Successfully processed eventattendance_club227_20250127.csv
+2025-01-27 09:00:22,903 - INFO - URL: https://makesweat.com/reports/clubpayments.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:23,832 - INFO - Response length: 3166
+2025-01-27 09:00:23,920 - INFO - Successfully processed clubpayments_club227_20250127.csv
+2025-01-27 09:00:23,920 - INFO - URL: https://makesweat.com/reports/leadersattendees.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:24,446 - INFO - Response length: 1926
+2025-01-27 09:00:24,536 - INFO - Successfully processed leadersattendees_club227_20250127.csv
+2025-01-27 09:00:24,537 - INFO - URL: https://makesweat.com/reports/assocclubusage.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:26,289 - INFO - Response length: 1262
+2025-01-27 09:00:26,382 - INFO - Successfully processed assocclubusage_club227_20250127.csv
+2025-01-27 09:00:26,382 - INFO - URL: https://makesweat.com/reports/clubcomments.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:26,800 - INFO - Response length: 173
+2025-01-27 09:00:26,801 - ERROR - Invalid response for clubcomments, club 227
+. Lines: 1, Size: 173
+2025-01-27 09:00:26,802 - INFO - URL: https://makesweat.com/reports/peopleinfo.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:28,255 - INFO - Response length: 100724
+2025-01-27 09:00:28,377 - INFO - Successfully processed peopleinfo_club227_20250127.csv
+2025-01-27 09:00:28,377 - INFO - URL: https://makesweat.com/reports/gdproptin.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:29,054 - INFO - Response length: 27803
+2025-01-27 09:00:29,158 - INFO - Successfully processed gdproptin_club227_20250127.csv
+2025-01-27 09:00:29,158 - INFO - URL: https://makesweat.com/reports/followersummary.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:31,330 - INFO - Response length: 126868
+2025-01-27 09:00:31,431 - INFO - Successfully processed followersummary_club227_20250127.csv
+2025-01-27 09:00:31,431 - INFO - URL: https://makesweat.com/reports/peoplepasses.php?clubid=227&starttime=2024-12-28%2000:00:00&endtime=2025-01-27%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-27 09:00:34,806 - INFO - Response length: 41472
+2025-01-27 09:00:34,903 - INFO - Successfully processed peoplepasses_club227_20250127.csv
+2025-01-27 09:00:34,904 - INFO - Pipeline completed successfully
+Running weekly pipeline...
+2025-01-31 09:00:06,731 - INFO - Processing club 225
+2025-01-31 09:00:06,733 - INFO - URL: https://makesweat.com/reports/eventattendance.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:07,762 - INFO - Response length: 56842
+2025-01-31 09:00:08,094 - INFO - Successfully processed eventattendance_club225_20250131.csv
+2025-01-31 09:00:08,094 - INFO - URL: https://makesweat.com/reports/clubpayments.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:09,217 - INFO - Response length: 5641
+2025-01-31 09:00:09,306 - INFO - Successfully processed clubpayments_club225_20250131.csv
+2025-01-31 09:00:09,307 - INFO - URL: https://makesweat.com/reports/leadersattendees.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:09,803 - INFO - Response length: 2910
+2025-01-31 09:00:09,902 - INFO - Successfully processed leadersattendees_club225_20250131.csv
+2025-01-31 09:00:09,903 - INFO - URL: https://makesweat.com/reports/assocclubusage.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:11,953 - INFO - Response length: 2978
+2025-01-31 09:00:12,036 - INFO - Successfully processed assocclubusage_club225_20250131.csv
+2025-01-31 09:00:12,036 - INFO - URL: https://makesweat.com/reports/clubcomments.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:12,361 - INFO - Response length: 173
+2025-01-31 09:00:12,361 - ERROR - Invalid response for clubcomments, club 225. Lines: 1, Size: 173
+2025-01-31 09:00:12,361 - INFO - URL: https://makesweat.com/reports/peopleinfo.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:15,188 - INFO - Response length: 391477
+2025-01-31 09:00:15,390 - INFO - Successfully processed peopleinfo_club225_20250131.csv
+2025-01-31 09:00:15,390 - INFO - URL: https://makesweat.com/reports/gdproptin.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:15,962 - INFO - Response length: 123722
+2025-01-31 09:00:16,082 - INFO - Successfully processed gdproptin_club225_20250131.csv
+2025-01-31 09:00:16,082 - INFO - URL: https://makesweat.com/reports/followersummary.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:20,503 - INFO - Response length: 485257
+2025-01-31 09:00:20,697 - INFO - Successfully processed followersummary_club225_20250131.csv
+2025-01-31 09:00:20,698 - INFO - URL: https://makesweat.com/reports/peoplepasses.php?clubid=225&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:24,783 - INFO - Response length: 220176
+2025-01-31 09:00:24,918 - INFO - Successfully processed peoplepasses_club225_20250131.csv
+2025-01-31 09:00:24,919 - INFO - Processing club 227
+
+2025-01-31 09:00:24,919 - INFO - URL: https://makesweat.com/reports/eventattendance.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:25,468 - INFO - Response length: 35637
+2025-01-31 09:00:25,564 - INFO - Successfully processed eventattendance_club227_20250131.csv
+2025-01-31 09:00:25,565 - INFO - URL: https://makesweat.com/reports/clubpayments.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:26,801 - INFO - Response length: 3168
+2025-01-31 09:00:26,913 - INFO - Successfully processed clubpayments_club227_20250131.csv
+2025-01-31 09:00:26,914 - INFO - URL: https://makesweat.com/reports/leadersattendees.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:27,399 - INFO - Response length: 2314
+2025-01-31 09:00:27,519 - INFO - Successfully processed leadersattendees_club227_20250131.csv
+2025-01-31 09:00:27,519 - INFO - URL: https://makesweat.com/reports/assocclubusage.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:29,221 - INFO - Response length: 1388
+2025-01-31 09:00:29,324 - INFO - Successfully processed assocclubusage_club227_20250131.csv
+2025-01-31 09:00:29,325 - INFO - URL: https://makesweat.com/reports/clubcomments.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:29,814 - INFO - Response length: 173
+2025-01-31 09:00:29,815 - ERROR - Invalid response for clubcomments, club 227
+. Lines: 1, Size: 173
+2025-01-31 09:00:29,815 - INFO - URL: https://makesweat.com/reports/peopleinfo.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:30,939 - INFO - Response length: 100949
+2025-01-31 09:00:31,064 - INFO - Successfully processed peopleinfo_club227_20250131.csv
+2025-01-31 09:00:31,065 - INFO - URL: https://makesweat.com/reports/gdproptin.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:31,531 - INFO - Response length: 27803
+2025-01-31 09:00:31,625 - INFO - Successfully processed gdproptin_club227_20250131.csv
+2025-01-31 09:00:31,625 - INFO - URL: https://makesweat.com/reports/followersummary.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:33,886 - INFO - Response length: 127169
+2025-01-31 09:00:34,016 - INFO - Successfully processed followersummary_club227_20250131.csv
+2025-01-31 09:00:34,017 - INFO - URL: https://makesweat.com/reports/peoplepasses.php?clubid=227&starttime=2025-01-01%2000:00:00&endtime=2025-01-31%2000:00:00&format=csv&makesweatuserident=97a5ef8c2773e5a16fca1e48c67767ae22f55d3bab54a6819efeebf916b12ad1
+2025-01-31 09:00:36,838 - INFO - Response length: 41599
+2025-01-31 09:00:36,946 - INFO - Successfully processed peoplepasses_club227_20250131.csv
+2025-01-31 09:00:36,947 - INFO - Pipeline completed successfully

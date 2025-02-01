@@ -1,0 +1,39 @@
+type_name,category,typical_fabric_type,garment_family,garment_type_id
+Blouse,women,"Woven, Light to Medium",tops,1
+Button-up Shirt,unisex,"Woven, Light",tops,2
+T-Shirt,unisex,"Knit, Light",tops,3
+Tank Top,unisex,"Knit or Woven, Light",tops,4
+Crop Top,unisex,"Knit or Woven, Light",tops,5
+Dress,women,"Woven or Knit, Light to Medium",dresses,6
+Maxi Dress,women,"Woven or Knit, Light to Medium",dresses,7
+Wrap Dress,women,"Woven or Knit, Light to Medium",dresses,8
+Slip Dress,women,"Woven, Light",dresses,9
+Skirt,women,"Woven, Light to Medium",bottoms,10
+Pants,unisex,"Woven, Medium to Heavy",bottoms,11
+Shorts,unisex,"Woven, Light to Medium",bottoms,12
+Culottes,women,"Woven, Light to Medium",bottoms,13
+Leggings,unisex,"Knit, Medium with Stretch",bottoms,14
+Jacket,unisex,"Woven, Medium to Heavy",outerwear,15
+Coat,unisex,"Woven, Heavy",outerwear,16
+Cardigan,unisex,"Knit, Light to Medium",outerwear,17
+Blazer,unisex,"Woven, Medium",outerwear,18
+Robe,unisex,"Woven, Light to Medium",loungewear,19
+Pajamas,unisex,"Woven or Knit, Light",loungewear,20
+Lounge Pants,unisex,"Knit, Light to Medium",loungewear,21
+Swimsuit,unisex,Knit with Stretch,activewear,22
+Sports Bra,women,Knit with Stretch,activewear,23
+Active Leggings,unisex,Knit with Stretch,activewear,24
+Child's Dress,children,"Woven, Light",children,25
+Child's Top,children,"Knit, Light",children,26
+Child's Pants,children,"Woven or Knit, Light to Medium",children,27
+Child's Coat,children,"Woven, Medium",children,28
+Bag,accessories,"Woven, Heavy",accessories,29
+Hat,accessories,"Woven, Light to Medium",accessories,30
+Scarf,accessories,"Woven or Knit, Light",accessories,31
+Face Mask,accessories,"Woven, Light",accessories,32
+Bra,women,Knit with Stretch,underwear,33
+Underwear,unisex,Knit with Stretch,underwear,34
+Camisole,women,"Woven or Knit, Light",underwear,35
+Jumpsuit,unisex,"Woven, Light to Medium",one-piece,36
+Overalls,unisex,"Woven, Medium to Heavy",one-piece,37
+Dungarees,unisex,"Woven, Medium",one-piece,38

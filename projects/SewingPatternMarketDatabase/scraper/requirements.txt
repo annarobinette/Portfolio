@@ -1,0 +1,10 @@
+beautifulsoup4==4.12.3
+requests==2.31.0
+pandas==2.2.0
+tqdm==4.66.1
+python-dotenv==1.0.0
+numpy==1.26.3
+lxml==5.1.0  # For faster HTML parsing
+fake-useragent==1.4.0  # For rotating user agents
+pytest==7.4.4  # For testing
+black==24.1.1  # For code formatting

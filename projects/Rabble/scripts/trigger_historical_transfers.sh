@@ -1,22 +1,19 @@
 #!/bin/bash
-# trigger_historical_transfers.sh
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/anna/Documents/MakeSweat_Reports/FileRequests/rabble-424818-6a7d8ba56cc5.json"
+export GCS_BUCKET_NAME="europe-west2-rabble-5e308dc8-bucket"
+export GOOGLE_CLOUD_PROJECT="rabble-424818"
 
-PROJECT_ID="rabble-424818"
-LOCATION="europe-west2"
+export PROJECT_ID="rabble-424818"
+gcloud config set project $PROJECT_ID
 
-echo "Starting manual trigger of historical transfers..."
+current_time=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
-# List all transfer configs that match the historical pattern
-historical_transfers=$(bq ls --transfer_config \
-    --filter='displayName LIKE "Historical Transfer%"' \
-    --format=json \
-    --location=$LOCATION)
-
-# Trigger each transfer
-echo "$historical_transfers" | jq -r '.[] | .name' | while read -r transfer_name; do
-    echo "Triggering transfer: $transfer_name"
-    bq mk --transfer_run "$transfer_name"
-    sleep 2  # Brief pause between triggers
+bq ls --transfer_config \
+   --project_id=$PROJECT_ID \
+   --location=europe-west2 \
+   --transfer_location=europe-west2 | grep "Historical Transfer" | while read -r line; do
+   transfer_name=$(echo "$line" | awk -F' ' '{print $1}')
+   echo "Triggering transfer: $transfer_name"
+   bq mk --transfer_run --run_time="$current_time" "$transfer_name"
+   sleep 2
 done
-
-echo "Historical transfers triggered successfully."

@@ -1,0 +1,47 @@
+type_name,category_id
+Blouse,1
+Button-up Shirt,2
+T-Shirt,3
+Tank Top,4
+Crop Top,4
+Dress,5
+Maxi Dress,5
+Wrap Dress,5
+Slip Dress,6
+Skirt,7
+Skirt,9
+Pants,8
+Shorts,7
+Shorts,9
+Culottes,7
+Culottes,9
+Leggings,10
+Jacket,11
+Coat,12
+Cardigan,13
+Blazer,14
+Robe,15
+Pajamas,16
+Lounge Pants,17
+Swimsuit,18
+Swimsuit,19
+Sports Bra,18
+Sports Bra,19
+Active Leggings,18
+Active Leggings,19
+Child's Dress,20
+Child's Top,21
+Child's Pants,22
+Child's Coat,23
+Bag,24
+Hat,25
+Scarf,26
+Face Mask,27
+Bra,28
+Bra,29
+Underwear,28
+Underwear,29
+Camisole,30
+Jumpsuit,31
+Overalls,32
+Dungarees,33
