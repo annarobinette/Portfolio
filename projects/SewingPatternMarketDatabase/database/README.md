@@ -266,31 +266,29 @@ This first view acts as a comprehensive dashboard for individual pattern perform
 ![Creating a view](./screenshots/CreateAView.png)
 
 ```sql
-CREATE VIEW vw_pattern_performance AS
-SELECT 
-    p.pattern_id,
-    p.pattern_name,
-    pub.publisher_name,
-    gt.type_name,
-    p.price,
-    COUNT(DISTINCT od.order_id) as total_orders,
-    SUM(od.price_paid) as total_revenue,
-    AVG(r.rating) as avg_rating,
-    COUNT(DISTINCT r.rating_id) as review_count
-FROM 
-    patterns p
-    LEFT JOIN publishers pub ON p.publisher_id = pub.publisher_id
-    LEFT JOIN garment_types gt ON p.garment_type_id = gt.garment_type_id
-    LEFT JOIN order_details od ON p.pattern_id = od.pattern_id
-    LEFT JOIN ratings r ON p.pattern_id = r.pattern_id
-GROUP BY 
-    p.pattern_id, p.pattern_name, 
-     pub.publisher_name, 
-    gt.type_name, p.price
-;
+    CREATE OR REPLACE VIEW vw_pattern_performance AS
+    SELECT 
+        dp.pattern_key,
+        dp.pattern_name,
+        dpub.publisher_name,
+        dgt.type_name,
+        dp.price,
+        COUNT(DISTINCT fs.order_key) as total_orders,
+        SUM(fs.price_paid) as total_revenue
+    FROM 
+        dim_pattern dp
+        LEFT JOIN dim_publisher dpub ON dp.publisher_key = dpub.publisher_key
+        LEFT JOIN dim_garment_type dgt ON dp.garment_type_key = dgt.garment_type_key
+        LEFT JOIN fact_sales fs ON dp.pattern_key = fs.pattern_key
+    GROUP BY 
+        dp.pattern_key, 
+        dp.pattern_name, 
+        dpub.publisher_name, 
+        dgt.type_name, 
+        dp.price;
 ```
 
-To get the most out of the view, I paired it with an example query that finds the top 10 bestselling patterns. It's me asking the database, "What are the star products?" The results show which patterns are making the most money and who publishes them and how customes rate them. This is important for understanding what sells well and why.
+To get the most out of the view, I paired it with an example query that finds the top 10 bestselling patterns. It's me asking the database, "What are the star products?" The results show which patterns are making the most money and who publishes them. This is important for understanding what sells well and why.
 
 ```SQL
 SELECT 
@@ -388,7 +386,7 @@ The output data is [here](./output_data/publisher_metric.csv) to show the outcom
 
 
 ### Stored Function
-This function is a handy tool I came up with that can be used repeatedly throughout the database. It takes a publisher_id as input and retrieves the publisher's commission rate from dim_publisher, calculates total revenue from all their pattern sales and returns their earnings based on their commission rate.
+This function is a handy tool I came up with that can be used repeatedly throughout the database. It takes a publisher_id as input and retrieves the publisher's commission rate from `dim_publisher`, calculates total revenue from all their pattern sales and returns their earnings based on their commission rate.
 
 This function is really useful for Running Stitch because it directly supports publisher payments and financial reporting, handles commission calculations consistently and combines data from multiple tables (`fact_sales`, `dim_pattern`, `dim_publisher`). It can be used in financial reports, publisher dashboards and payment processing.
 
@@ -523,12 +521,12 @@ CALL analyze_customer_spending('2024-01-01', '2024-12-31');
 
 The output data is saved [here](./output_data/storedprocedure_analyzecustomers.csv). The randomness of the data strikes again! The database has customers across 221 countries, which shows a truly global reach. However, this unusually high number of countries might need data validation (as there are only about 195 countries globally...)
 
-From this data, I could improve Runing Stitch as a business by focussing on markets with high average order values for immediate growth and investigate successful markets to replicate their success elsewhere. Apart from using actual data, if it were a real business I could consider combining smaller markets into regional groups.
+From this data, I could improve Running Stitch as a business by focussing on markets with high average order values for immediate growth and investigate successful markets to replicate their success elsewhere. Apart from using actual data, if it were a real business I could consider combining smaller markets into regional groups.
 
 In terms of the data, this is all generated rather than real, but pretending for the moment, I would im prove the data quality by validating country codes/names and standardizing country names in the database.
 
 ### Group By & Having Query
-This analysis Identifies publishers with premium pricing strategies and helps understand market positioning. It supports my partnership decisions with publishers and helps identify high-value business relationships
+This analysis identifies publishers with premium pricing strategies and helps understand market positioning. It supports my partnership decisions with publishers and helps identify high-value business relationships.
 
 ```sql
 -- This query finds publishers with high-value patterns (avg price > overall avg)
@@ -549,7 +547,7 @@ ORDER BY total_revenue DESC;
 ```
 ![query result](./screenshots/groupby_having_result.png)
 
-The data is stored [here](./output_data/groupby_having_result.csv). There are 31 publishers have above-average pattern prices, which represents a significant portion of the pattern catalogue and shows diverse pricing strategies in the market. Some publishers focus on a few, high-value patterns and others a lot of higher-priced patterns. This indicates multiple viable business models in the premium segment
+The data is stored [here](./output_data/groupby_having_result.csv). There are 31 publishers have above-average pattern prices, which represents a significant portion of the pattern catalogue and shows diverse pricing strategies in the market. Some publishers focus on a few, high-value patterns and others a lot of higher-priced patterns. This indicates multiple viable business models in the premium segment.
 
 The total revenue varies significantly among premium publishers and higher prices don't always correlate with higher total revenue, suggesting that price is just one factor in overall success.
 
