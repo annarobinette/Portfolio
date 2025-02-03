@@ -4,20 +4,27 @@
 Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst with a background in design and project management. My diverse experience allows me to approach data analysis with a unique perspective, combining analytical rigor with creative problem-solving.
 
 ## Projects
-
 ### [**Rabble**](./projects/Rabble/readme.md)
 - **Purpose**: to build an automated data pipeline for a sports community to allow for analysis player participation pattern and identify factors contributing to player retention
-- **Tools**: Python → Google Cloud & BigQuery
+- **Tools**: Python → Google Cloud & BigQuery (SQL)
 - **Key Deliverables**:
   - Built an automated pipeline to allow ELT (Extract, Load and Transform) process of data from booking system to secure location on Google Cloud
   - Setup of Data Governance policy
-   - Created interactive dashboards for exploring performance metrics
+  - Created interactive dashboards for exploring performance metrics
 - **Communication Focus**: Strategy and Marketing teams
 - **Data Source**: Rabble data
 
+### [**Running Stitch**](./projects/SewingPatternMarketDatabase/README.md)
+- **Purpose**: to analyse the sales and customer demographics of a fabricated sewing website for CodeFirstGirls SQL qualification
+- **Tools**: Python → SQL
+- **Key Deliverables**:
+  - Formulated a SQL database using Snowflake schema and populating database
+  - Created of Views, Functions and Procedures suitable for business needs
+  - Presented workflow and methods
+- **Communication Focus**: Strategy and Business teams
+- **Data Source**: The Foldline sewing website data scrape and generated data using Faker library
 
 ### [**PicTotter**](https://github.com/annarobinette/PicTotter/blob/main/README.md)
-
 - **Purpose**: to streamline the process of managing image counts in briefs for illustrated fiction books
 - **Tools**: ExtendScript → InDesign
 - **Key Deliverables**:
@@ -28,7 +35,6 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 
 
 ### [**Project Gutenberg**](./projects/ProjectGutenberg_Analysis/README.md)
-
 - **Purpose**: To analysis of digital publishing patterns using Project Gutenberg's multi-language dataset
 - **Tools**: Python → Excel
 - **Key Deliverables**:
@@ -40,7 +46,6 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 
 
 ### [**Amazon Bestsellers**](./projects/AmazonBestseller_Analysis/README.md)
-
 - **Purpose**: Analysing sections of Amazon Bestseller lists to capture market trends
 - **Tools**: Python (BeautifulSoup) + Power BI
 - **Key Deliverables**: 
@@ -53,7 +58,6 @@ Welcome to my data analyst portfolio! I'm Anna Robinette, a skilled data analyst
 
 
 ### [**Mobile App Data**](./projects/AnalysingMobileAppData/AnalyzingMobileAppData.ipynb)
-
 - **Purpose**: Market trend analysis using app download data from the Apple Store and Android Store to devise a new app idea to generate revenue from in-app ads
 - **Tools**: Python 
 - **Key Deliverables**: 
