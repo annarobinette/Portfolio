@@ -1,0 +1,85 @@
+# Cambridge Leader Cost Structure Analysis
+15 February 2025
+
+## Executive Summary
+This analysis evaluates the financial impact of Rabble Cambridge adopting Rabble London's leader cost structure, based on the last year's event data. The change would result in an annual revenue reduction of £215.00 and decrease the number of profitable events from 123 to 110 out of 135 total events.
+
+## Cost Structure
+### Current
+The current payment structure has a leader paid £20 for the first 5 players, increasing by £1 for each additional player up to 15 players and then £2 for each additional player above that.
+
+### Proposed
+It is proposed that the cost structure match the London structure, which pays £25 for the first 10 players, increasing by £1 for each additional player up to 15 players and then £2 for each additional player above that.
+
+## Financial Impact Analysis
+
+### Overall Revenue Impact
+- For the last 12 months, the Annual Revenue was £4,134.73
+- Using the London pay structure, the Annual Revenue for that period would be £3,919.73
+- The Net Annual Impact: -£215.00 (-5.2%)
+
+### Event Profitability
+Using the current pay structure 123 out of 137 events were profitable (89.8%) while the proposed pay structure would mean that 110 of the 137 events are profitable (80.3%). The net change is 13 events becoming unprofitable (-9.5%).
+
+### Monthly Revenue Data
+
+| Month    | Events | Current Avg/Event | Projected Avg/Event | Total Impact | Avg Players |
+|----------|--------:|-----------------:|-------------------:|--------------:|------------:|
+| 2024-01  | 12     | £22.02           | £22.02             | £0.00        | 9.8        |
+| 2024-02  | 14     | £19.81           | £19.81             | £0.00        | 9.9        |
+| 2024-03  | 13     | £22.43           | £20.43             | -£26.00      | 7.6        |
+| 2024-04  | 14     | £29.90           | £28.12             | -£25.00      | 10.3       |
+| 2024-05  | 12     | £26.63           | £24.71             | -£23.00      | 9.1        |
+| 2024-06  | 13     | £24.67           | £22.29             | -£31.00      | 7.2        |
+| 2024-07  | 15     | £24.74           | £22.07             | -£40.00      | 7.5        |
+| 2024-08  | 10     | £39.91           | £38.01             | -£19.00      | 8.9        |
+| 2024-09  | 9      | £37.25           | £35.47             | -£16.00      | 8.8        |
+| 2024-10  | 10     | £44.53           | £43.13             | -£14.00      | 11.1       |
+| 2024-11  | 8      | £42.19           | £40.44             | -£14.00      | 10.3       |
+| 2024-12  | 7      | £50.63           | £49.63             | -£7.00       | 10.0       |
+
+## Location-Specific Impact Analysis
+
+### Location Performance Summary
+
+| Location ID | Location Name | Total Events | Currently Profitable | Projected Profitable | Events At Risk | Avg Players | Avg Impact/Event |
+|------------|----------------|-------------:|--------------------:|--------------------:|---------------:|-----------:|-----------------:|
+| 337        | Parker's Piece | 79          | 73                  | 64                  | 9             | 8.6        | -£2.08           |
+| 1860       | Meadows Community Centre | 10          | 10                  | 7                   | 3             | 6.9        | -£2.90           |
+| 1861       | Meadows Community Centre* | 13          | 10                  | 9                   | 1             | 7.8        | -£0.77           |
+| 338        | St Matthews Primary School | 34          | 29                  | 29                  | 0             | 11.1       | -£0.35           |
+| 1876       | Whitelands Farm Sports Ground** | 1           | 1                   | 1                   | 0             | 14.0       | £0.00            |
+
+*There are two separate entries pulling through for this name, and I am unsure of difference</br>
+**This location is in Bicester and falls under the Rabble Cambridge booking system
+### Events Becoming Unprofitable
+If the proposed pay structure were to take place, then 13 events that had previously been profitable would be become unprofitable.
+| Metric                     | Value    |
+|---------------------------|----------|
+| Average Players           | 4.9      |
+| Average Revenue Drop (per session)     | £4.62    |
+| Total Affected Events     | 13       |
+
+## Risk Analysis
+
+### Vulnerability by Session Size
+
+| Players per Session | Total Events | Events at Risk | Risk Percentage |
+|-------------------:|-------------:|--------------:|----------------:|
+| 1-5                | 24          | 9             | 37.5%          |
+| 6-10               | 66          | 4             | 6.1%           |
+| 11-15              | 38          | 0             | 0%             |
+| 16+                | 9           | 0             | 0%             |
+
+As the proposed pay structure only affects the pay for sessions that have 1-10 players, this finding is to be expected. It means that sessions that will already have low margins will be affected further.
+
+## Conclusions
+While adopting Rabble London's leader cost structure would result in a relatively modest annual revenue reduction of £215.00, the impact is concentrated in specific locations and smaller sessions. The change would disproportionately affects Parker's Piece, where 10 events would become unprofitable. Locations with higher average attendance (St Matthews Primary School and Bicester) show resilience to the proposed changes.
+
+The primary risk factor is session size, with events averaging fewer than 5 players being most vulnerable to becoming unprofitable. This suggests that any adoption of the new cost structure should be accompanied by strategies to increase attendance at smaller sessions or consider location-specific pricing adjustments.
+
+## Next Steps
+1. Confirm if locations are indoors or outdoors and if there are seasonal locations
+2. Check cost for any locations
+2. Run analysis for session time and day patterns
+2. Try to increase player numbers to 10+ per session, where the structure change would have no effect.
